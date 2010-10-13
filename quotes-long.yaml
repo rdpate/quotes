@@ -1,0 +1,18 @@
+---
+q: Nobody should start to undertake a large project.  You start with a small trivial project, and you should never expect it to get large.  If you do, you'll just overdesign and generally think it is more important than it likely is at that stage.  Or worse, you might be scared away by the sheer size of the work you envision.  So start small, and think about the details.  Don't think about some big picture and fancy design.  If it doesn't solve some fairly immediate need, it's almost certainly over-designed.  And don't expect people to jump in and help you.  That's not how these things work.  You need to get something half-way useful first, and then others will say "hey, that almost works for me", and they'll get involved in the project.
+by: Linus Torvalds
+---
+q: The most unfair thing about life is the way it ends.  I mean, life is tough.  It takes up a lot of your time.  What do you get at the end of it?  A Death!  What's that, a bonus?  I think the life cycle is all backwards.  You should die first, get it out of the way.  Then you live in an old age home.  You get kicked out when you're too young, you get a gold watch, you go to work.  You work forty years until you're young enough to enjoy your retirement.  You do drugs, alcohol, you party, you get ready for high school.  You go to grade school, you become a kid, you play, you have no responsibilities, you become a little baby, you go back into the womb, you spend your last nine months floating.. and you finish off as an orgasm.
+by: George Carlin
+---
+q: |
+  "If it ain't broke, don't fix it," is the slogan of the complacent, the arrogant, or the scared.  It's an excuse for inaction.  It's a mindset that assumes (or hopes) that today's realities will continue tomorrow in a tidy, linear and predictable fashion.  Pure fantasy.  In this sort of culture, you won't find people who proactively take steps to solve problems as they emerge.
+by: Colin Powell
+---
+q: |
+  We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil.  Yet we should not pass up our opportunities in that critical 3%.  A good programmer will not be lulled into complacency by such reasoning, he will be wise to look carefully at the critical code; but only after that code has been identified.
+by: Donald Knuth
+ref: Structured Programming with Goto Statements <http://pplab.snu.ac.kr/courses/adv_pl05/papers/p261-knuth.pdf>
+---
+q: From a bit to a few hundred megabytes, from a microsecond to a half an hour of computing confronts us with completely baffling ratio of 10**9!  The programmer is in the unique position that his is the only discipline and profession in which such a gigantic ratio, which totally baffles our imagination, has to be bridged by a single technology.  He has to be able to think in terms of conceptual hierarchies that are much deeper than a single mind ever needed to face before.
+by: E. W. Dijkstra

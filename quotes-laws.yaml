@@ -1,0 +1,41 @@
+---
+q: The time required to make a decision increases with the number and complexity of choices.
+title: Hick's Law
+ref: http://en.wikipedia.org/wiki/Hick's_law
+---
+q: It always takes longer than you expect, even when you take into account Hofstadter's Law.
+title: Hofstadter's Law
+---
+q: "A complex system that works is invariably found to have evolved from a simple system that worked.  The inverse proposition also appears to be true: a complex system designed from scratch never works and cannot be made to work.  You have to start over, beginning with a working simple system."
+by: John Gall
+ref: http://en.wikipedia.org/wiki/Gall's_law
+title: Gall's Law
+---
+q: Any sufficiently advanced incompetence is indistinguishable from malice.
+title: Grey's Law
+---
+q: Work expands so as to fill the time available for its completion.
+title: Parkinson's Law
+ref: http://en.wikipedia.org/wiki/Parkinson's_Law
+---
+q: Ninety percent of everything is crud.
+title: Sturgeon's Law
+ref: http://en.wikipedia.org/wiki/Sturgeon's_law
+---
+q: There is nothing so small that it can't be blown out of proportion.
+title: Ruckert's Law
+---
+q: Inside every large program is a small program struggling to get out.
+title: Hoare's Law of Large Programs
+---
+q: A minority of input produces the majority of results.
+title: Pareto Principle
+ref: http://en.wikipedia.org/wiki/Pareto_Principle
+---
+q: It is three times as difficult to build reusable components as single use components.  A reusable component should be tried out in three different applications before it will be sufficiently general to accept into a reuse library.
+title: Robert Glass' Rules of Three
+ref: http://www.amazon.com/Facts-Fallacies-Software-Engineering-Development/dp/0321117425/
+note: http://jasonium.com/?p=45
+---
+q: Never attribute to malice that which can be adequately explained by stupidity.
+by: Hanlon's razor

@@ -1,0 +1,501 @@
+# q: quotation
+# by: attribution (a person)
+# title: specific title for the quote itself (e.g. Gall's Law)
+# source: attribution (a thing, e.g. forum, book, or magazine)
+# when: date (format undecided)
+# ref: reference locations (a list or a string)
+# id: quote id (string or number)
+# note: textual note (not generally displayed)
+# tags: space-separated string of tags
+---
+q: The most exciting phrase to hear in science, the one that heralds new discoveries, is not "Eureka!" but "That's funny..."
+by: Isaac Asimov
+---
+q: The difference between theory and practice is smaller in theory than in practice.
+---
+q: My definition of an expert in any field is a person who knows enough about what's really going on to be scared.
+by: P. J. Plauger
+source: Computer Language, March 1983
+---
+q: An expert is a man who has made all the mistakes that can be made in a very narrow field.
+by: Niels Bohr
+---
+q: Once you get a B.S., you think you know everything.  Once you get an M.S., you realize you know nothing.  Once you get a Ph.D., you realize *no one* knows anything.
+---
+q: Cheap, fast, reliable; pick any two.
+---
+q: "Nation's populace: ignorant, free, civil; pick any two."
+---
+q: Brevity is the soul of wit.
+by: Shakespeare
+---
+q: This report, by its very length, defends itself against the risk of being read.
+by: Winston Churchill
+---
+q: It is easy to work when the soul is at play.
+by: Emily Dickinson
+---
+q: It would seem that perfection is attained not when there is nothing left to add, but when there is nothing left to take away.
+by: Antoine de Saint-Exupéry
+note: http://en.wikiquote.org/wiki/Antoine_de_Saint-Exup%C3%A9ry#Terre_des_Hommes_.281939.29
+---
+q: If we don't believe in freedom of expression for people we despise, we don't believe in it at all.
+by: Noam Chomsky
+---
+q: To announce that there must be no criticism of the president, or that we are to stand by him right or wrong, is not only unpatriotic and servile, but is morally treasonable to the American public.
+by: Theodore Roosevelt
+---
+q: The human brain is a wonderful thing.  It starts working the moment you are born, and never stops until you stand up to speak in public.
+by: Sir George Jessel
+---
+q: If I had more time, I would have written a shorter letter.
+by: Cicero
+---
+q: Better to train people and risk they leave, than to do nothing and risk they stay.
+---
+q: When art critics get together they talk about Form and Structure and Meaning.  When artists get together they talk about where you can buy cheap turpentine.
+by: Pablo Picasso
+---
+q: You can't solve social problems through technical means.
+---
+q: One who works with their hands is a laborer.  One who works with their hands and their mind is a craftsman.  One who works with their hands, mind, and heart is an artist.
+---
+q: Any sufficiently advanced magic is indistinguishable from a rigged demonstration.
+---
+q: "Three passions, simple but overwhelmingly strong, have governed my life: longing for love, search for knowledge and an unbearable lust for chocolate."
+by: Bertrand Russel
+---
+q: Whenever a theory apears to you as the only possible one, take this as a sign that you have neither understood the theory nor the problem it was intended to solve.
+by: Karl Popper
+---
+q: All models are wrong but some are useful.
+by: George Box (1869-1933)
+---
+q: It is impossible for a man to learn what he thinks he already knows.
+by: Epictetus (c.55-c.135)
+---
+q: The Internet, of course, is more than just a place to find pictures of people having sex with dogs.
+source: Time Magazine (3 July 1995)
+---
+q: The most exciting phrase to hear in science, the one that heralds new discoveries, is not "Eureka!" but "That's funny..."
+by: Isaac Asimov (1920-1992)
+---
+q: The true delight is in the finding out rather than in the knowing.
+by: Isaac Asimov
+---
+q: "There are three kinds of lies: lies, damned lies, and statistics."
+by: Mark Twain
+---
+q: If you think it's expensive to hire a professional to do the job, wait until you hire an amateur.
+by: Red Adair
+---
+q: If a thing is worth doing, it is worth doing badly.
+by: G. K. Chesterton
+---
+q: In everyone's life, at some time, our inner fire goes out.  It is then burst into flame by an encounter with another human being.  We should all be thankful for those people who rekindle the inner spirit.
+by: Albert Schweitzer
+---
+q: I have come to believe that the whole world is an enigma, a harmless enigma that is made terrible by our own mad attempt to interpret it as though it had an underlying truth.
+by: Umberto Eco
+---
+q: You don't love a woman because she is beautiful, but she is beautiful because you love her.
+---
+q: I like your Christ, I do not like your Christians.  Your Christians are so unlike your Christ.
+by: Mohandas Gandhi
+---
+q: A genuine leader is not a searcher for consensus but a molder of consensus.
+by: Martin Luther King, Jr.
+---
+q: An intellectual is a person who has discovered something more interesting than sex.
+by: Aldous Huxley
+---
+q: The price of reliability is the pursuit of utmost simplicity.  It is a price which the very rich find most hard to pay.
+by: Sir Antony Hoare, 1980
+---
+q: Experience is what you get when you don't get what you wanted.
+---
+q: All men make mistakes, but only wise men learn from their mistakes.
+by: Winston Churchill
+---
+q: Computer games don't affect kids, I mean if Pacman had affected us as kids, we'd be running around in dark rooms, munching pills, and listening to repetitive music.
+by: Marcus Brigstocke
+---
+q: When finishing becomes more important than quality, the result is neither quality nor complete.
+---
+q: The generation of random numbers is too important to be left to chance.
+by: Robert R. Coveyou
+---
+q: Knowledge is knowing that a tomato is a fruit; wisdom is knowing not to put it in a fruit salad.
+by: Miles Kington
+---
+q: Naturally, the common people don't want war, but they can always be brought to the bidding of the leaders.  Tell them they are being attacked, and denounce the pacifists for lack of patriotism and endangering the country.  It works the same in every country.
+by: Herman Goering, Hitler's Reichsmarschall, at the Nuremberg trials
+---
+q: How many animals can you fit into a pair of women's jeans?  Two calves, a beaver, a pussy, an ass, countless hares, an occasional cock, and a dead fish no one has been able to find.
+---
+q: Our life is frittered away by detail...  Simplify, simplify.
+by: Henry David Thoreau
+---
+q: Performance analysis is not an armchair game.
+by: Cliff Click
+ref: http://www.infoq.com/presentations/click-crash-course-modern-hardware
+---
+q: Don't worry about people stealing an idea.  If it's original, you will have to ram it down their throats.
+by: Howard Aiken (1900 - 1973)
+---
+q: Organization can never be a substitute for initiative and for judgement.
+by: Louis D. Brandeis
+---
+q: I've never let school interfere with my education.
+by: Mark Twain
+---
+q: "Education: that which reveals to the wise, and conceals from the stupid, the vast limits of their knowledge."
+by: Mark Twain
+---
+q: You need only reflect that one of the best ways to get yourself a reputation as a dangerous citizen these days is to go about repeating the very phrases which our founding fathers used in the struggle for independence.
+by: Charles Austin Beard
+---
+q: Love your country always.  Love your government when they deserve it.
+by: Mark Twain
+---
+q: The important thing, once you have enough to eat and a nice house, is what you can do for others, what you can contribute to the enterprise as a whole.
+by: Donald Knuth
+source: Dr. Dobb's Journal (April 1996)
+---
+q: I can’t go to a restaurant and order food because I keep looking at the fonts on the menu.
+by: Donald Knuth
+---
+q: >
+  The reason is not to glorify "bit chasing"; a more fundamental issue is at stake here: Numerical subroutines should deliver results that satisfy simple, useful mathematical laws whenever possible. [...] Without any underlying symmetry properties, the job of proving interesting results becomes extremely unpleasant. The enjoyment of one's tools is an essential ingredient of successful work.
+by: Donald Knuth
+source: TAOCP, Vol. II, Seminumerical Algorithms, Section 4.2.2 part A, final paragraph
+---
+q: Computer programming is an art, because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. A programmer who subconsciously views himself as an artist will enjoy what he does and will do it better.
+by: Donald Knuth
+source: Computer Programming as an Art (1974)
+---
+q: I have absolutely no idea how to write a programming language, I just kept adding the next logical step on the way.
+by: Rasmus Lerdorf, creator of PHP
+ref: http://en.wikiquote.org/wiki/Rasmus_Lerdorf
+---
+q: "It's easier to ask forgiveness than it is to get permission."
+by: Grace Hopper
+---
+q: If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.
+by: John von Neumann
+---
+q: Many persons have the wrong idea of what constitutes true happiness.  It is not attained through self-gratification but through fidelity to a worthy purpose.
+by: Helen Keller
+---
+q: The best time to plant a tree is 20 years ago.  The second best time is now.
+source: Chinese proverb
+---
+q: Work consists of whatever a body is obliged to do.  Play consists of whatever a body is not obliged to do.
+by: Mark Twain
+source: The Adventures of Tom Sawyer
+---
+q: Well, the telling of jokes is an art of its own, and it always rises from some emotional threat.  The best jokes are dangerous, and dangerous because they are in some way truthful.
+by: Kurt Vonnegut
+---
+q: The multitude of books is making us ignorant.
+by: Voltaire
+---
+q: The hardest thing to learn in life is which bridge to cross and which to burn.
+by: David Russell
+---
+q: Of all forms of caution, caution in love is perhaps the most fatal to true happiness.
+by: Bertrand Russell
+---
+q: It is not necessary to understand things in order to argue about them.
+by: Pierre Beaumarchais
+---
+q: It takes too much energy to be against something unless it's really important.
+by: Madeleine L'Engle
+---
+q: What's the point of havin' a rapier wit if I can't use it to stab people?
+by: Jeph Jacques
+source: http://questionablecontent.net/
+---
+q: Skiing combines outdoor fun with knocking down trees with your face.
+by: Dave Barry
+---
+q: People are more violently opposed to fur than leather because it's safer to harass rich women than motorcycle gangs.
+---
+q: Science is a way of thinking much more than it is a body of knowledge.
+by: Carl Sagan
+---
+q: Programming is the act of applying logic to creativity.
+---
+q: It has been my experience that folks who have no vices have very few virtues.
+by: Abraham Lincoln
+---
+q: The worst thing that will happen is you'll fail and no one will notice.
+by: Seth Godin
+note: interview by Merlin Mann of 43 folders, http://www.43folders.com/2010/01/26/godin-linchpin
+---
+q: Great minds discuss ideas, average minds discuss events, small minds discuss people.
+by: Eleanor Roosevelt
+---
+q: Good artists copy, great artists steal.
+by: Pablo Picasso
+---
+q: Remember, there's a big difference between kneeling down and bending over.
+by: Frank Zappa
+---
+q: I have put away childish things.
+source: 1 Corinthians 13:11
+---
+q: It is better to keep your mouth closed and let people think you are a fool than to open it and remove all doubt.
+by: Mark Twain
+---
+q: The fact that an opinion has been widely held is no evidence whatever that it is not utterly absurd; indeed in view of the silliness of the majority of mankind, a widespread belief is more likely to be foolish than sensible.
+by: Bertrand Russell
+---
+q: Dreaming permits each and every one of us to be the quietly and safely insane every night of our lives.
+by: William Dement
+---
+q: There is danger from all men. The only maxim of a free government ought to be to trust no man living with power to endanger the public liberty.
+by: John Adams
+---
+q: It seemed the world was divided into good and bad people.  The good ones slept better... while the bad ones seemed to enjoy the waking hours much more.
+by: Woody Allen
+---
+q: Chance favors the prepared mind.
+by: Louis Pasteur
+---
+q: It all depends on whether you have things, or they have you.
+by: Robert A. Cook
+---
+q: I know you believe you understand what you think I said, but I'm not sure you realize that what you heard isn't what I meant.
+---
+q: Nothing strengthens the judgment and quickens the conscience like individual responsibility.
+by: Elizabeth Cady Stanton
+---
+q: When you're at the edge of a cliff, sometimes progress is a step backwards.
+---
+q: Don't wrestle a pig in a mud hole. You both get all dirty, and the pig enjoys it.
+---
+q: You can't turn back the clock. But you can wind it up again.
+by: Bonnie Prudden
+---
+q: Be kind, for everyone you meet is fighting a hard battle.
+by: Plato
+---
+q: We could never learn to be brave and patient if there were only joy in the world.
+by: Helen Keller
+---
+q: What we see depends mainly on what we look for.
+by: John Lubbock
+---
+q: If I had six hours to chop down a tree, I'd spend the first hour sharpening the ax.
+by: Abraham Lincoln
+---
+q: Be on a horse when you go in search of a better one.
+by: Chinese Proverb
+---
+q: The most important thing in communication is to hear what isn't being said.
+by: Peter F. Drucker
+---
+q: They may forget what you said, but they will never forget how you made them feel.
+by: Carl W. Buechner
+---
+q: We are all inclined to judge ourselves by our ideals; others, by their acts.
+by: Harold Nicolson
+---
+q: If you could kick the person in the pants responsible for most of your trouble, you wouldn't sit for a month.
+---
+q: You may be deceived if you trust too much, but you will live in torment if you don't trust enough.
+by: Frank Crane
+---
+q: To be trusted is a greater compliment than to be loved.
+by: George MacDonald
+---
+q: If you don't know where you're going, you'll end up somewhere else.
+by: Yogi Berra
+---
+q: Our power is in our ability to decide.
+by: Buckminster Fuller
+---
+q: Power is like being a lady... if you have to tell people you are, you aren't.
+by: Margaret Thatcher
+---
+q: Try again.  Fail again.  Fail better.
+by: Samuel Beckett
+---
+q: Life is what happens to us while we are making other plans.
+by: Thomas La Mance
+---
+q: A fact is a simple statement that everyone believes.  It is innocent, unless found guilty.  A hypothesis is a novel suggestion that no one wants to believe.  It is guilty, until found effective.
+by: Edward Teller
+---
+q: Science is organized knowledge.  Wisdom is organized life.
+by: Immanuel Kant
+---
+q: You know what's interesting about Washington?  It's the kind of place where second-guessing has become second nature.
+by: George W. Bush
+---
+q: Be who you are and say what you feel, because those who mind don't matter and those who matter don't mind.
+by: Dr. Seuss
+---
+q: The man with outward courage dares to die.  The man with inward courage dares to live.
+by: Lao Tzu
+---
+q: The real issue is not whether baking biscuits is meaningful, but the extent to which the activity can seem so after it has been continuously stretched and subdivided across five thousand lives and half a dozen different manufacturing sites.  An endeavor endowed with meaning may appear meaningful only when it proceeds briskly in the hands of a restricted number of actors and therefore where particular workers can make an imaginative connection between what they have done with their working days and their impact upon others.
+by: Alain de Botton
+---
+q: Time sneaks up on you like a windshield on a bug.
+by: John Lithgow
+---
+q: Life does not cease to be funny when people die any more than it ceases to be serious when people laugh.
+by: George Bernard Shaw
+---
+q: There is no stigma attached to recognizing a bad decision in time to install a better one.
+by: Laurence J. Peter
+---
+q: I don't have a girlfriend. But I do know a woman who'd be mad at me for saying that.
+by: Mitch Hedberg
+---
+q: Every crowd has a silver lining.
+by: Phineas Tayler Barnum
+---
+q: A committee can make a decision that is dumber than any of its members.
+by: David Coblitz
+---
+q: For most folks, no news is good news; for the press, good news is not news.
+by: Gloria Borger
+---
+q: Men of genius do not excel in any profession because they labor in it, but they labor in it because they excel.
+by: William Hazlitt
+---
+q: The best advice doesn't come as a barrage of statements but rather from a series of questions, asked by someone playing devil's advocate.
+by: Jason Cohen
+source: http://blog.asmartbear.com/distinguishing-constructive-criticism-from-bad-business-advice.html
+---
+q: I've had a perfectly wonderful evening. But this wasn't it.
+by: Groucho Marx
+---
+q: Americans are benevolently ignorant about Canada, while Canadians are malevolently well informed about the United States.
+by: J. Bartlett Brebner
+---
+q: There are too many people, and too few human beings.
+by: Robert Zend
+---
+q: The greatest use of life is to spend it for something that will outlast it.
+by: William James
+---
+q: I believe in getting into hot water; it keeps you clean.
+by: G. K. Chesterton
+---
+q: Plans are worthless, but planning is everything.
+by: Dwight D. Eisenhower
+---
+q: Fast, good, cheap; pick two.
+---
+q: The fool wonders, the wise man asks.
+by: Benjamin Disraeli
+---
+q: You can use an eraser on the drafting table or a sledgehammer on the construction site.
+by: Frank Lloyd Wright
+---
+q: The art of simplicity is a puzzle of complexity.
+by: Doug Horton
+---
+q: The people of the various provinces are strictly forbidden to have in their possession any swords, short swords, bows, spears, firearms, or other types of arms. The possession of unnecessary implements makes difficult the collection of taxes and dues and tends to foment uprisings.
+by: Toyotomi Hideyoshi, dictator of Japan
+date: August 1588
+note: http://catb.org/~esr/fortunes/rkba.html
+---
+q: As the Founding Fathers knew well, a government that does not trust its honest, law-abiding, taxpaying citizens with the means of self-defense is not itself worthy of trust.  Laws disarming honest citizens proclaim that the government is the master, not the servant, of the people.
+by: Jeff Snyder
+note: http://catb.org/~esr/fortunes/rkba.html
+---
+q: Americans have the right and advantage of being armed -- unlike the citizens of other countries whose governments are afraid to trust the people with arms.
+by: James Madison
+source: The Federalist Papers
+note: http://catb.org/~esr/fortunes/rkba.html
+---
+q: An armed society is a polite society.  Manners are good when one may have to back up his acts with his life.
+by: Robert A. Heinlein
+source: Beyond This Horizon
+when: 1942
+note: http://catb.org/~esr/fortunes/rkba.html
+---
+q: You know why there's a Second Amendment?  In case the government fails to follow the first one.
+by: Rush Limbaugh
+when: August 17, 1993
+note: http://catb.org/~esr/fortunes/rkba.html
+---
+q: A man with a gun is a citizen.  A man without a gun is a subject.
+by: John R. Lott
+note: http://catb.org/~esr/fortunes/rkba.html
+---
+q: Politicians should read science fiction, not westerns and detective stories.
+by: Arthur C. Clarke
+---
+q: The right word may be effective, but no word was ever as effective as a rightly timed pause.
+by: Mark Twain
+---
+q: Acting is merely the art of keeping a large group of people from coughing.
+by: Sir Ralph Richardson
+---
+q: Music is the only language in which you cannot say a mean or sarcastic thing.
+by: John Erskine
+---
+q: Blame someone else and get on with your life.
+by: Alan Woods
+---
+q: It's a recession when your neighbor loses his job; it's a depression when you lose yours.
+by: Harry S. Truman
+---
+q: "There are two motives for reading a book: one, that you enjoy it; the other, that you can boast about it."
+by: Bertrand Russell
+---
+q: Regret for the things we did can be tempered by time; it is regret for the things we did not do that is inconsolable.
+by: Sidney J. Harris
+---
+q: The test of a first-rate intelligence is the ability to hold two opposed ideas in the mind at the same time, and still retain the ability to function.
+by: F. Scott Fitzgerald
+---
+q: As a general rule, the most successful man in life is the man who has the best information.
+by: Benjamin Disraeli
+---
+q: The fool wonders, the wise man asks.
+by: Benjamin Disraeli
+---
+q: Anyone who has never made a mistake has never tried anything new.
+by: Albert Einstein
+---
+q: Never memorize what you can look up in books.
+by: Albert Einstein
+---
+q: "Insanity: doing the same thing over and over again and expecting different results."
+by: Albert Einstein
+---
+q: Information is not knowledge.
+by: Albert Einstein
+---
+q: Make everything as simple as possible, but not simpler.
+by: Albert Einstein
+---
+q: In the interests of clarity, it seemed necessary to constantly remind myself to pay not the slightest attention to the elegance of the presentation; I adhered conscientiously to the rule of the brilliant theoretician, Ludwig Boltzmann, to leave elegance to tailors and shoemakers.
+by: Albert Einstein
+---
+q: A clever person solves a problem.  A wise person avoids it.
+by: Albert Einstein
+---
+q: The secret of life is to appreciate the pleasure of being terribly, terribly deceived.
+by: Oscar Wilde
+---
+q: The man who lets himself be bored is even more contemptible than the bore.
+by: Samuel Butler
+---
+q: The law, in its majestic equality, forbids the rich as well as the poor to sleep under bridges, to beg in the streets, and to steal bread.
+by: Anatole France
+---
+q: I shall not waste my days in trying to prolong them.
+by: Ian Fleming
+---
+q: There are two tragedies in life.  One is not to get your heart's desire.  The other is to get it.
+by: George Bernard Shaw
+# add new quote: select next line, yank, :@"; select quote, cursor on above line, use \n
+# map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A

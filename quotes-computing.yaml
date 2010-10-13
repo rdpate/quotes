@@ -1,0 +1,257 @@
+# vim:ft=:
+# Some are from http://stackoverflow.com/questions/58640/great-programming-quotes
+---
+q: Beware of bugs in the above code; I have only proved it correct, not tried it.
+by: Donald Knuth
+source: a memo to Peter van Emde Boas
+---
+q: Java is the best because it's cross-platform just like anal sex is the best because it's cross-gender.
+---
+q: "Having users is like optimization: the wise course is to delay it."
+by: Paul Graham
+---
+q: I trust my family jewels only to Linux.
+by: Donald Knuth
+ref: http://www.informit.com/articles/article.aspx?p=1193856
+---
+q: "The essence of XML is this: the problem it solves is not hard, and it does not solve the problem well."
+by: Phil Wadler
+source: POPL 2003
+---
+q: Walking on water and developing software from a specification are easy if both are frozen.
+by: Edward V. Berard
+---
+q: Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
+by: Martin Golding
+---
+q: Debugging is twice as hard as writing the code in the first place.  Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.
+by: Brian Kernighan
+---
+q: The first 90% of the code accounts for the first 90% of the development time.  The remaining 10% of the code accounts for the other 90% of the development time.
+by: Tom Cargill
+---
+q: Some people, when confronted with a problem, think "I know, I'll use regular expressions."  Now they have two problems.
+by: Jamie Zawinski
+---
+q: "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
+by: Bjarne Stroustrup
+---
+q: I have always wished for my computer to be as easy to use as my telephone; my wish has come true because I can no longer figure out how to use my telephone.
+by: Bjarne Stroustrup
+---
+q: If you want to set off and go develop some grand new thing, you don't need millions of dollars of capitalization.  You need enough pizza and Diet Coke to stick in your refrigerator, a cheap PC to work on and the dedication to go through with it.
+by: John Carmack
+---
+q: The idea that I can be presented with a problem, set out to logically solve it with the tools at hand, and wind up with a program that could not be legally used because someone else followed the same logical steps some years ago and filed for a patent on it is horrifying.
+by: John Carmack
+---
+q: It should be noted that no ethically-trained software engineer would ever consent to write a DestroyBaghdad procedure.  Basic professional ethics would instead require him to write a DestroyCity procedure, to which Baghdad could be given as a parameter.
+by: Nathaniel S. Borenstein
+---
+q: On two occasions I have been asked by members of Parliment, "Pray, Mr. Babbage, if you put into the machine wrong figures, will the right answers come out?"  I am not able rightly to apprehend the kind of confusion of ideas that could provoke such a question.
+by: Charles Babbage
+---
+q: PHP is a minor evil perpetrated and created by incompetent amateurs, whereas Perl is a great and insidious evil perpetrated by skilled but perverted professionals.
+by: Jon Ribbens
+---
+q: Debugging is anticipated with distaste, performed with reluctance, and bragged about forever.
+by: Dan Kaminsky
+---
+q: Memory is like an orgasm.  It's a lot better if you don't have to fake it.
+by: Seymour Cray, on virtual memory
+---
+q: A computer lets you make more mistakes faster than any other invention in human history, with the possible exceptions of handguns and tequila.
+by: Mitch Ratcliffe
+---
+q: If debugging is the process of removing software bugs, then programming must be the process of putting them in.
+by: Edsger Dijkstra
+---
+q: Computer science is no more about computers than astronomy is about telescopes.
+by: Edsger Dijkstra
+---
+q: "There are two ways of constructing a software design: one way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies.  The first method is far more difficult."
+by: C.A.R. Hoare
+---
+q: Never trust a programmer in a suit.
+---
+q: Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves.
+by: Alan Kay
+---
+q: The trouble with programmers is that you can never tell what a programmer is doing until it's too late.
+by: Seymour Cray
+---
+q: Perl, the only language that looks the same before and after RSA encryption.
+by: Keith Bostic
+---
+q: Nine people can't make a baby in a month.
+by: Fred Brooks
+---
+q: Weeks of coding can save you hours of planning.
+---
+q: Programs must be written for people to read, and only incidentally for machines to execute.
+by: Harold Abelson
+---
+q: Any fool can write code that a computer can understand.  Good programmers write code that humans can understand.
+by: Martin Fowler
+---
+q: The greatest performance improvement of all is when a system goes from not-working to working.
+by: John Ousterhout
+---
+q: Whereas Europeans generally pronounce my name the right way ("Nick-louse Veert"), Americans invariably mangle it into "Nickel's Worth."  This is to say that Europeans call me by name, but Americans call me by value.
+by: Niklaus Wirth
+---
+q: A computer is a stupid machine with the ability to do incredibly smart things, while computer programmers are smart people with the ability to do incredibly stupid things.  They are, in short, a perfect match.
+by: Bill Bryson
+---
+q: UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity.
+by: Dennis Ritchie
+---
+q: Computer science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter.
+by: Eric Raymond
+---
+q: To iterate is human, to recurse divine.
+by: L. Peter Deutsch
+---
+q: "Theory is when you know something, but it doesn't work.  Practice is when something works, but you don't know why.  Programmers combine theory and practice: Nothing works and they don't know why."
+---
+q: The question of whether computers can think is just like the question of whether submarines can swim.
+by: Edsger Dijkstra
+---
+q: Owning a computer without programming is like having a kitchen and using only the microwave oven.
+by: Charles Petzold
+---
+q: "We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil.  Yet we should not pass up our opportunities in that critical 3%.  A good programmer will not be lulled into complacency by such reasoning, he will be wise to look carefully at the critical code; but only after that code has been identified."
+by: Donald Knuth
+---
+q: The only "intuitive" interface is the nipple.  After that it's all learned.
+by: Bruce Ediger
+---
+q: Mostly, when you see programmers, they aren't doing anything.  One of the attractive things about programmers is that you cannot tell whether or not they are working simply by looking at them.  Very often they're sitting there seemingly drinking coffee and gossiping, or just staring into space.  What the programmer is trying to do is get a handle on all the individual and unrelated ideas that are scampering around in his head.
+by: Charles M. Strauss
+---
+q: Think twice before you start programming or you will program twice before you start thinking.
+---
+q: A good programmer looks both ways before crossing a one-way street.
+---
+q: Don't worry about people stealing your ideas.  If it's original, you'll have to ram it down their throats.
+by: Howard Aiken, creator of the IBM/Harvard Mark 1 Computer
+---
+q: Simplicity is prerequisite for reliability.
+by: Edsger Dijkstra
+---
+q: All problems in computer science can be solved with another level of indirection.
+by: David Wheeler
+---
+q: "Debugging is like farting: doing your own isn't so bad."
+---
+q: Man is the best computer we can put aboard a spacecraft, and the only one that can be mass produced with unskilled labor.
+by: Wernher von Braun
+---
+q: "There are only two hard problems in Computer Science: cache invalidation and naming things."
+by: Phil Karlton
+---
+q: Before software can be reusable it first has to be usable.
+---
+q: It seems to me you can program with discipline or you can program with bondage and discipline.  You can't avoid the discipline either way, but bondage appeals to some people.
+by: Patrick Logan, on static typing
+ref: http://lambda-the-ultimate.org/classic/message10140.html
+---
+q: The real hero of programming is the one who writes negative code.
+by: M. Douglas McIlroy
+---
+q: As a programmer, it is your job to put yourself out of business. What you do today can be automated tomorrow.
+by: M. Douglas McIlroy
+---
+q: Keep it simple, make it general, and make it intelligible.
+by: M. Douglas McIlroy
+---
+q: Make it simple, general, and intelligible.
+by: paraphrasing M. Douglas McIlroy
+---
+q: The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the programming task in full humility, and among other things he avoids clever tricks like the plague.
+by: Edsger Dijkstra
+---
+q: Mathematicians stand on each other's shoulders while computer scientists stand on each other's toes.
+by: R.W. Hamming
+---
+q: Whereas Newton could say, "If I have seen a little farther than others, it is because I have stood on the shoulders of giants," I am forced to say, "Today we stand on each other's feet." Perhaps the central problem we face in all of computer science is how we are to get to the situation where we build on top of the work of others rather than redoing so much of it in a trivially different way.
+by: R.W. Hamming
+note: 1968 Turing Award lecture
+---
+q: A test that reveals a bug has succeeded, not failed.
+by: Boris Beizer
+---
+q: If you leave C behind, do it properly and get some real features that matter.
+by: Linus Torvalds
+ref: http://www.realworldtech.com/forums/index.cfm?action=detail&id=110618&threadid=110549&roomid=2
+---
+q: "XML is like violence: if it doesn't solve your problem, you're not using enough of it."
+---
+q: People who believe that you design everything before you implement it are people who haven't designed very many things.
+by: Harold Abelson
+---
+q: Debuggers don't remove bugs; they show bugs in slow motion.
+---
+q: It's all talk until the code runs.
+by: Ward Cunningham
+---
+q: Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the fix obvious to someone.
+by: Eric S. Raymond
+title: Linus's Law
+---
+q: I ... am rarely happier than when spending an entire day programming my computer to perform automatically a task that would otherwise take me a good ten seconds to do by hand.
+by: Douglas Adams
+source: Last Chance to See
+---
+q: Good code is its own best documentation.  As you're about to add a comment, ask yourself, "How can I improve the code so that this comment isn't needed?"  Improve the code and then document it to make it even clearer.
+by: Steve McConnell
+---
+q: "It is practically impossible to teach good programming style to students that have had prior exposure to BASIC: as potential programmers they are mentally mutilated beyond hope of regeneration."
+by: Edsger W. Dijkstra
+---
+q: "The three great virtues of programming language designers: diligence, patience, humility."
+by: Manuel J. Simoni
+ref: http://axisofeval.blogspot.com/2010/09/three-great-virtues-of-programming.html
+---
+q: The purpose of computing is insight, not numbers.
+by: R.W. Hamming
+---
+q: Writing code a computer can understand is science.  Writing code other programmers can understand is an art.
+by: Jason Gorman
+ref: http://twitter.com/jasongorman/statuses/24765422787
+---
+q: One irresponsible programmer can keep any five top-notch programmers busy.
+by: Eric Evans
+note: http://q4td.blogspot.com/2010/08/one-irresponsible-programmer-can-keep.html
+---
+q: I loved Git until I tried it.  Now I love Mercurial.
+by: Tor Norbye
+ref: The Java Posse Podcast
+note: http://q4td.blogspot.com/2010/06/i-loved-git-until-i-tried-it.html
+---
+q: The userbase for strong cryptography declines by half with every additional keystroke or mouseclick required to make it work.
+by: Carl Ellison
+---
+q: There are only two industries that refer to their customers as users.
+by: Edward Tufte
+---
+q: A language that doesn’t have everything is actually easier to program in than some that do.
+by: Dennis Ritchie
+---
+q: If you don’t think carefully, you might think that programming is just typing statements in a programming language.
+by: Ward Cunningham
+---
+q: Reusing pieces of code is liked picking off sentences from other people’s stories and trying to make a magazine article.
+by: Bob Frankston
+---
+q: I knew I’d hate COBOL the moment I saw they’d used perform instead of do.
+by: Larry Wall
+---
+q: "If C++ has taught me one thing, it’s this: Just because the system is consistent doesn’t mean it’s not the work of Satan."
+by: Andrew Plotkin
+---
+q: Arguing that Java is better than C++ is like arguing that grasshoppers taste better than tree bark.
+by: Thant Tessman
+---
+q: "Historically, languages designed for other people to use have been bad: Cobol, PL/I, Pascal, Ada, C++. The good languages have been those that were designed for their own creators: C, Perl, Smalltalk, Lisp."
+by: Paul Graham
