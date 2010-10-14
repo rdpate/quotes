@@ -98,9 +98,14 @@ def main(args):
     print sep.join((text, end_text))
 
   if opts.grep:
-    opts.grep = re.compile(opts.grep, re.I).search
+    if re.escape(opts.grep) == opts.grep:  # not a regex, could be improved
+      opts.grep = opts.grep.lower()
+      def grep(s):
+        return opts.grep in s.lower()
+    else:
+      grep = re.compile(opts.grep, re.I).search
     for collection, q in quotes:
-      if any(opts.grep(t) for t in q if t):
+      if any(grep(t) for t in q if t):
         show_quote(q, collection)
   else:
     for _ in xrange(opts.n):
