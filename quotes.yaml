@@ -1,7 +1,7 @@
 # q: quotation
 # by: attribution (a person)
 # title: specific title for the quote itself (e.g. Gall's Law)
-# source: attribution (a thing, e.g. forum, book, or magazine)
+# source: attribution (a thing, e.g. speech, forum, book, or magazine)
 # when: date (format undecided)
 # ref: reference locations (a list or a string)
 # id: quote id (string or number)

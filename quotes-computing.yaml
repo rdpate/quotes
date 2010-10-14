@@ -64,10 +64,29 @@ q: A computer lets you make more mistakes faster than any other invention in hum
 by: Mitch Ratcliffe
 ---
 q: If debugging is the process of removing software bugs, then programming must be the process of putting them in.
-by: Edsger Dijkstra
+by: Edsger W. Dijkstra
 ---
 q: Computer science is no more about computers than astronomy is about telescopes.
-by: Edsger Dijkstra
+by: Edsger W. Dijkstra
+---
+q: Programming is one of the most difficult branches of applied mathematics; the poorer mathematicians had better remain pure mathematicians.
+by: Edsger W. Dijkstra
+source: EWD498
+---
+q: The question of whether machines can think... is about as relevant as the question of whether submarines can swim.
+by: Edsger W. Dijkstra
+source: EWD898
+---
+q: Simplicity is prerequisite for reliability.
+by: Edsger W. Dijkstra
+source: EWD498
+---
+q: The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the programming task in full humility, and among other things he avoids clever tricks like the plague.
+by: Edsger W. Dijkstra
+source: EWD340
+---
+q: "It is practically impossible to teach good programming style to students that have had prior exposure to BASIC: as potential programmers they are mentally mutilated beyond hope of regeneration."
+by: Edsger W. Dijkstra
 ---
 q: "There are two ways of constructing a software design: one way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies.  The first method is far more difficult."
 by: C.A.R. Hoare
@@ -76,6 +95,10 @@ q: Never trust a programmer in a suit.
 ---
 q: Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves.
 by: Alan Kay
+---
+q: You probably know that arrogance, in computer science, is measured in nanodijkstras.
+by: Alan Kay
+source: keynote speech at OOPSLA 1997
 ---
 q: The trouble with programmers is that you can never tell what a programmer is doing until it's too late.
 by: Seymour Cray
@@ -114,9 +137,6 @@ by: L. Peter Deutsch
 ---
 q: "Theory is when you know something, but it doesn't work.  Practice is when something works, but you don't know why.  Programmers combine theory and practice: Nothing works and they don't know why."
 ---
-q: The question of whether computers can think is just like the question of whether submarines can swim.
-by: Edsger Dijkstra
----
 q: Owning a computer without programming is like having a kitchen and using only the microwave oven.
 by: Charles Petzold
 ---
@@ -135,9 +155,6 @@ q: A good programmer looks both ways before crossing a one-way street.
 ---
 q: Don't worry about people stealing your ideas.  If it's original, you'll have to ram it down their throats.
 by: Howard Aiken, creator of the IBM/Harvard Mark 1 Computer
----
-q: Simplicity is prerequisite for reliability.
-by: Edsger Dijkstra
 ---
 q: All problems in computer science can be solved with another level of indirection.
 by: David Wheeler
@@ -167,9 +184,6 @@ by: M. Douglas McIlroy
 ---
 q: Make it simple, general, and intelligible.
 by: paraphrasing M. Douglas McIlroy
----
-q: The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the programming task in full humility, and among other things he avoids clever tricks like the plague.
-by: Edsger Dijkstra
 ---
 q: Mathematicians stand on each other's shoulders while computer scientists stand on each other's toes.
 by: R.W. Hamming
@@ -205,9 +219,6 @@ source: Last Chance to See
 ---
 q: Good code is its own best documentation.  As you're about to add a comment, ask yourself, "How can I improve the code so that this comment isn't needed?"  Improve the code and then document it to make it even clearer.
 by: Steve McConnell
----
-q: "It is practically impossible to teach good programming style to students that have had prior exposure to BASIC: as potential programmers they are mentally mutilated beyond hope of regeneration."
-by: Edsger W. Dijkstra
 ---
 q: "The three great virtues of programming language designers: diligence, patience, humility."
 by: Manuel J. Simoni
