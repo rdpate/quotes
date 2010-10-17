@@ -266,3 +266,8 @@ by: Thant Tessman
 ---
 q: "Historically, languages designed for other people to use have been bad: Cobol, PL/I, Pascal, Ada, C++. The good languages have been those that were designed for their own creators: C, Perl, Smalltalk, Lisp."
 by: Paul Graham
+---
+q: The best way to implement code quickly is to implement less of it.  The best way to have fewer bugs is to implement less code.
+by: Ron Jeffries
+ref: http://www.xprogramming.com/Practices/PracNotNeed.html
+tags: design yagni
