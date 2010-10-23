@@ -271,3 +271,11 @@ q: The best way to implement code quickly is to implement less of it.  The best 
 by: Ron Jeffries
 ref: http://www.xprogramming.com/Practices/PracNotNeed.html
 tags: design yagni
+---
+q: Static typing is premature optimization.
+by: David Thornley
+ref: http://stackoverflow.com/q/3621297/54262
+---
+q: You can write Java in any language.
+by: Guido van Rossum
+note: http://stackoverflow.com/q/2579994
