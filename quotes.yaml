@@ -483,6 +483,9 @@ by: Albert Einstein
 q: A clever person solves a problem.  A wise person avoids it.
 by: Albert Einstein
 ---
+q: I never teach my pupils.  I only attempt to provide the conditions in which they can learn.
+by: Albert Einstein
+---
 q: The secret of life is to appreciate the pleasure of being terribly, terribly deceived.
 by: Oscar Wilde
 ---
@@ -517,5 +520,24 @@ by: Cyril Connolly
 ---
 q: If you want to make an apple pie from scratch, you must first create the universe.
 by: Carl Sagan
-# add new quote: select next line, yank, :@"; select quote, cursor on above line, use \n
+---
+q: Lack of planning on your part does not constitute an emergency on our part.
+---
+q: The object of war is not to die for your country but to make the other bastard die for his.
+by: General George S. Patton
+---
+q: Television -- a medium.  So called because it is neither rare nor well done.
+by: Ernie Kovacs
+---
+q: It is a great ability to be able to conceal one's ability.
+by: François de La Rochefoucauld
+---
+q: Any sufficiently advanced bureaucracy is indistinguishable from molasses.
+---
+q: Human beings are perhaps never more frightening than when they are convinced beyond doubt that they are right.
+by: Laurens Van der Post
+---
+q: There are people who, instead of listening to what is being said to them, are already listening to what they are going to say themselves.
+by: Albert Guinon
+# add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
