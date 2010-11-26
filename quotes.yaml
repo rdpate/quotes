@@ -539,5 +539,12 @@ by: Laurens Van der Post
 ---
 q: There are people who, instead of listening to what is being said to them, are already listening to what they are going to say themselves.
 by: Albert Guinon
+---
+q: If you ain't pissing people off, you ain't doing it right.
+by: abstrusegoose.com
+---
+q: Remembrance of things past is not necessarily the remembrance of things as they were.
+by: Marcela Proust
+note: unconfirmed from Criminal Minds season 6 episode 3
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
