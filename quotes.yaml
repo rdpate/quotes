@@ -551,9 +551,5 @@ q: "Freedom, Security, Convenience: Choose Two"
 by: Daniel E. Geer, Jr.
 note: |
   "Cypersecurity and National Policy", April 7, 2010; http://www.harvardnsj.com/2010/04/cybersecurity-and-national-policy/
----
-q: The programmer that doesn't ship is a charlatan.
-by: George Stocker
-note: http://blog.yapb.net/post/2010/11/23/Struggling-to-Ship-Prologue.aspx
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
