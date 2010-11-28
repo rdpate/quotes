@@ -546,5 +546,10 @@ by: abstrusegoose.com
 q: Remembrance of things past is not necessarily the remembrance of things as they were.
 by: Marcela Proust
 note: unconfirmed from Criminal Minds season 6 episode 3
+---
+q: "Freedom, Security, Convenience: Choose Two"
+by: Daniel E. Geer, Jr.
+note: |
+  "Cypersecurity and National Policy", April 7, 2010; http://www.harvardnsj.com/2010/04/cybersecurity-and-national-policy/
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
