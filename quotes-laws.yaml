@@ -39,3 +39,11 @@ note: http://jasonium.com/?p=45
 ---
 q: Never attribute to malice that which can be adequately explained by stupidity.
 by: Hanlon's razor
+---
+q: In analyzing complexity, fast iteration almost always produces better results than in-depth analysis.
+by: Boyd's Law of Iteration
+note: http://en.wikipedia.org/wiki/John_Boyd_(military_strategist); also stated as "Speed of iteration beats quality of iteration."
+---
+q: Adding additional resources to a late project only makes the project later.
+by: Brooks' Law
+note: Frederick Brooks
