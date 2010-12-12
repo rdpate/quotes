@@ -92,6 +92,12 @@ by: Red Adair
 q: If a thing is worth doing, it is worth doing badly.
 by: G. K. Chesterton
 ---
+q: I believe in getting into hot water; it keeps you clean.
+by: G. K. Chesterton
+---
+q: Don't ever take a fence down until you know the reason it was put up.
+by: G. K. Chesterton
+---
 q: In everyone's life, at some time, our inner fire goes out.  It is then burst into flame by an encounter with another human being.  We should all be thankful for those people who rekindle the inner spirit.
 by: Albert Schweitzer
 ---
@@ -383,9 +389,6 @@ by: Robert Zend
 q: The greatest use of life is to spend it for something that will outlast it.
 by: William James
 ---
-q: I believe in getting into hot water; it keeps you clean.
-by: G. K. Chesterton
----
 q: Plans are worthless, but planning is everything.
 by: Dwight D. Eisenhower
 ---
@@ -551,5 +554,14 @@ q: "Freedom, Security, Convenience: Choose Two"
 by: Daniel E. Geer, Jr.
 note: |
   "Cypersecurity and National Policy", April 7, 2010; http://www.harvardnsj.com/2010/04/cybersecurity-and-national-policy/
+---
+q: If mankind minus one were of one opinion, then mankind is no more justified in silencing the one than the one -- if he had the power -- would be justified in silencing mankind.
+by: John Stuart Mill
+---
+q: You cannot shake hands with a clenched fist.
+by: Indira Gandhi
+---
+q: If God did not exist, it would be necessary to invent him.
+by: Voltaire
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
