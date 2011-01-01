@@ -16,3 +16,20 @@ ref: Structured Programming with Goto Statements <http://pplab.snu.ac.kr/courses
 ---
 q: From a bit to a few hundred megabytes, from a microsecond to a half an hour of computing confronts us with completely baffling ratio of 10**9!  The programmer is in the unique position that his is the only discipline and profession in which such a gigantic ratio, which totally baffles our imagination, has to be bridged by a single technology.  He has to be able to think in terms of conceptual hierarchies that are much deeper than a single mind ever needed to face before.
 by: E. W. Dijkstra
+---
+q: Some complain that e-mail is impersonal -- that your contact with me, during the e-mail phase of our relationship, was mediated by wires and screens and cables.  Some would say that's not as good as conversing face-to-face.  And yet our seeing of things is always mediated by corneas, retinas, optic nerves, and some neural machinery that takes the information from the optic nerve and propagates it into our minds.  So, is looking at words on a screen so very much inferior?  I think not; at least then you are conscious of the distortions.  Whereas, when you see someone with your eyes, you forget about the distortions and imagine you are experiencing them purely and immediately.
+by: Neal Stephenson
+source: Cryptonomicon
+---
+q: |
+  An ad that pretends to be art is -- at absolute best -- like somebody who smiles warmly at you only because he wants something from you.  This is dishonest, but what's sinister is the cumulative effect that such dishonesty has on us: since it offers a perfect facsimile or simulacrum of goodwill without goodwill's real spirit, it messes with our heads and eventually starts upping our defenses even in cases of genuine smiles and real art and true goodwill.  It makes us feel confused and lonely and impotent and angry and scared.  It causes despair.
+by: David Foster Wallace
+source: A Supposedly Fun Thing I'll Never Do Again
+---
+q: The only way you can write the truth is to assume that what you set down will never be read.  Not by any other person, and not even by yourself at some later date.  Otherwise you begin excusing yourself.  You must see the writing as emerging like a long scroll of ink from the index finger of your right hand; you must see your left hand erasing it.
+by: Margaret Atwood
+source: The Blind Assassin
+---
+q: When government steps aside, it is not as if nothing takes its place.  Paradise does not prevail.  It's not as if private interests have no interests, as if private interests don't have ends they will then pursue.  To push the antigovernment button is not to teleport us to Eden.  When the interests of government are gone, other interests take their place.  Do we know what those interests are?  Are we so certain they are better?
+by: Lawrence Lessig
+source: Code

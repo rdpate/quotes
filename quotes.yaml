@@ -180,6 +180,9 @@ q: Computer programming is an art, because it applies accumulated knowledge to t
 by: Donald Knuth
 source: Computer Programming as an Art (1974)
 ---
+q: Much can be said for the desirability of incompletely specified formalisms; indeed, this incompleteness is the basis of the axiomatic method in mathematics and is also the basis of many good jokes.
+by: Donald Knuth
+---
 q: I have absolutely no idea how to write a programming language, I just kept adding the next logical step on the way.
 by: Rasmus Lerdorf, creator of PHP
 ref: http://en.wikiquote.org/wiki/Rasmus_Lerdorf
@@ -432,6 +435,9 @@ by: Robert A. Heinlein
 q: Stupidity, if left untreated, is self-correcting.
 by: Robert A. Heinlein
 ---
+q: Progress doesn't come from early risers -- progress is made by lazy men looking for easier ways to do things.
+by: Robert A. Heinlein
+---
 q: You know why there's a Second Amendment?  In case the government fails to follow the first one.
 by: Rush Limbaugh
 when: August 17, 1993
@@ -572,5 +578,10 @@ by: Indira Gandhi
 ---
 q: If God did not exist, it would be necessary to invent him.
 by: Voltaire
+---
+q: Being a nerd, which is to say going too far and caring too much about a subject, is the best way to make friends I know.
+by: Sarah Vowell
+source: |
+  "The Nerd Voice", The Partly Cloudy Patriot
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
