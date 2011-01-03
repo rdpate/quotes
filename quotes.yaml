@@ -583,5 +583,10 @@ q: Being a nerd, which is to say going too far and caring too much about a subje
 by: Sarah Vowell
 source: |
   "The Nerd Voice", The Partly Cloudy Patriot
+---
+q: Half the money I spend on advertising is wasted; the trouble is I don't know which half.
+by: John Wanamaker (1838-1922), US department store merchant
+note: http://www.quotationspage.com/quote/1992.html
+tags: advertising
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
