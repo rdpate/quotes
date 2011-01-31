@@ -1,0 +1,34 @@
+---
+q: If debugging is the process of removing software bugs, then programming must be the process of putting them in.
+by: Edsger W. Dijkstra
+---
+q: Computer science is no more about computers than astronomy is about telescopes.
+by: Edsger W. Dijkstra
+---
+q: Programming is one of the most difficult branches of applied mathematics; the poorer mathematicians had better remain pure mathematicians.
+by: Edsger W. Dijkstra
+source: EWD498
+---
+q: The question of whether machines can think... is about as relevant as the question of whether submarines can swim.
+by: Edsger W. Dijkstra
+source: EWD898
+---
+q: Simplicity is prerequisite for reliability.
+by: Edsger W. Dijkstra
+source: EWD498
+---
+q: The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the programming task in full humility, and among other things he avoids clever tricks like the plague.
+by: Edsger W. Dijkstra
+source: EWD340
+---
+q: "It is practically impossible to teach good programming style to students that have had prior exposure to BASIC: as potential programmers they are mentally mutilated beyond hope of regeneration."
+by: Edsger W. Dijkstra
+---
+q: |
+  How do we convince people that in programming simplicity and clarity -- in short: what mathematicians call "elegance" -- are not a dispensable luxury, but a crucial matter that decides between success and failure?
+by: Edsger W. Dijkstra
+source: EWD648
+---
+q: You probably know that arrogance, in computer science, is measured in nanodijkstras.
+by: Alan Kay
+source: keynote speech at OOPSLA 1997
