@@ -282,8 +282,6 @@ by: Elizabeth Cady Stanton
 ---
 q: When you're at the edge of a cliff, sometimes progress is a step backwards.
 ---
-q: Don't wrestle a pig in a mud hole. You both get all dirty, and the pig enjoys it.
----
 q: You can't turn back the clock. But you can wind it up again.
 by: Bonnie Prudden
 ---
@@ -588,5 +586,7 @@ q: Half the money I spend on advertising is wasted; the trouble is I don't know 
 by: John Wanamaker (1838-1922), US department store merchant
 note: http://www.quotationspage.com/quote/1992.html
 tags: advertising
+---
+q: "Arguing with an engineer is like mud wrestling with a pig: you both get dirty, but he enjoys it."
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
