@@ -588,5 +588,11 @@ note: http://www.quotationspage.com/quote/1992.html
 tags: advertising
 ---
 q: "Arguing with an engineer is like mud wrestling with a pig: you both get dirty, but he enjoys it."
+---
+q: The right to privacy... is the most comprehensive of rights and the right most valued by civilized man.
+by: Justice Louis Brandeis, US Supreme Court, 1928
+---
+q: Only in a police state is the job of a policeman easy.
+by: Orson Welles
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
