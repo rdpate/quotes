@@ -594,5 +594,14 @@ by: Justice Louis Brandeis, US Supreme Court, 1928
 ---
 q: Only in a police state is the job of a policeman easy.
 by: Orson Welles
+---
+q: Not to be a socialist at twenty is proof of want of heart; to be one at thirty is proof of want of head.
+by: Georges Clemenceau
+tags: politics
+note: http://answers.google.com/answers/threadview?id=374518
+---
+q: Any man who is not a socialist at age 20 has no heart.  Any man who is still a socialist at age 40 has no head.
+tags: politics
+note: Rephrased quote from Georges Clemenceau
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
