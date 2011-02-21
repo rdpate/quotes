@@ -172,11 +172,11 @@ q: I can’t go to a restaurant and order food because I keep looking at the fon
 by: Donald Knuth
 ---
 q: >
-  The reason is not to glorify "bit chasing"; a more fundamental issue is at stake here: Numerical subroutines should deliver results that satisfy simple, useful mathematical laws whenever possible. [...] Without any underlying symmetry properties, the job of proving interesting results becomes extremely unpleasant. The enjoyment of one's tools is an essential ingredient of successful work.
+  The reason is not to glorify "bit chasing"; a more fundamental issue is at stake here: Numerical subroutines should deliver results that satisfy simple, useful mathematical laws whenever possible. [...] Without any underlying symmetry properties, the job of proving interesting results becomes extremely unpleasant.  The enjoyment of one's tools is an essential ingredient of successful work.
 by: Donald Knuth
 source: TAOCP, Vol. II, Seminumerical Algorithms, Section 4.2.2 part A, final paragraph
 ---
-q: Computer programming is an art, because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. A programmer who subconsciously views himself as an artist will enjoy what he does and will do it better.
+q: Computer programming is an art, because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty.  A programmer who subconsciously views himself as an artist will enjoy what he does and will do it better.
 by: Donald Knuth
 source: Computer Programming as an Art (1974)
 ---
@@ -263,7 +263,7 @@ by: Bertrand Russell
 q: Dreaming permits each and every one of us to be the quietly and safely insane every night of our lives.
 by: William Dement
 ---
-q: There is danger from all men. The only maxim of a free government ought to be to trust no man living with power to endanger the public liberty.
+q: There is danger from all men.  The only maxim of a free government ought to be to trust no man living with power to endanger the public liberty.
 by: John Adams
 ---
 q: It seemed the world was divided into good and bad people.  The good ones slept better... while the bad ones seemed to enjoy the waking hours much more.
@@ -282,7 +282,7 @@ by: Elizabeth Cady Stanton
 ---
 q: When you're at the edge of a cliff, sometimes progress is a step backwards.
 ---
-q: You can't turn back the clock. But you can wind it up again.
+q: You can't turn back the clock.  But you can wind it up again.
 by: Bonnie Prudden
 ---
 q: Be kind, for everyone you meet is fighting a hard battle.
@@ -359,7 +359,7 @@ by: George Bernard Shaw
 q: There is no stigma attached to recognizing a bad decision in time to install a better one.
 by: Laurence J. Peter
 ---
-q: I don't have a girlfriend. But I do know a woman who'd be mad at me for saying that.
+q: I don't have a girlfriend.  But I do know a woman who'd be mad at me for saying that.
 by: Mitch Hedberg
 ---
 q: Every crowd has a silver lining.
@@ -378,7 +378,7 @@ q: The best advice doesn't come as a barrage of statements but rather from a ser
 by: Jason Cohen
 source: http://blog.asmartbear.com/distinguishing-constructive-criticism-from-bad-business-advice.html
 ---
-q: I've had a perfectly wonderful evening. But this wasn't it.
+q: I've had a perfectly wonderful evening.  But this wasn't it.
 by: Groucho Marx
 ---
 q: Americans are benevolently ignorant about Canada, while Canadians are malevolently well informed about the United States.
@@ -404,7 +404,7 @@ by: Frank Lloyd Wright
 q: The art of simplicity is a puzzle of complexity.
 by: Doug Horton
 ---
-q: The people of the various provinces are strictly forbidden to have in their possession any swords, short swords, bows, spears, firearms, or other types of arms. The possession of unnecessary implements makes difficult the collection of taxes and dues and tends to foment uprisings.
+q: The people of the various provinces are strictly forbidden to have in their possession any swords, short swords, bows, spears, firearms, or other types of arms.  The possession of unnecessary implements makes difficult the collection of taxes and dues and tends to foment uprisings.
 by: Toyotomi Hideyoshi, dictator of Japan
 date: August 1588
 note: http://catb.org/~esr/fortunes/rkba.html
