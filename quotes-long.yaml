@@ -9,11 +9,6 @@ q: |
   "If it ain't broke, don't fix it," is the slogan of the complacent, the arrogant, or the scared.  It's an excuse for inaction.  It's a mindset that assumes (or hopes) that today's realities will continue tomorrow in a tidy, linear and predictable fashion.  Pure fantasy.  In this sort of culture, you won't find people who proactively take steps to solve problems as they emerge.
 by: Colin Powell
 ---
-q: |
-  We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil.  Yet we should not pass up our opportunities in that critical 3%.  A good programmer will not be lulled into complacency by such reasoning, he will be wise to look carefully at the critical code; but only after that code has been identified.
-by: Donald Knuth
-ref: Structured Programming with Goto Statements <http://pplab.snu.ac.kr/courses/adv_pl05/papers/p261-knuth.pdf>
----
 q: From a bit to a few hundred megabytes, from a microsecond to a half an hour of computing confronts us with completely baffling ratio of 10**9!  The programmer is in the unique position that his is the only discipline and profession in which such a gigantic ratio, which totally baffles our imagination, has to be bridged by a single technology.  He has to be able to think in terms of conceptual hierarchies that are much deeper than a single mind ever needed to face before.
 by: E. W. Dijkstra
 ---
