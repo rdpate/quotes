@@ -603,5 +603,9 @@ note: http://answers.google.com/answers/threadview?id=374518
 q: Any man who is not a socialist at age 20 has no heart.  Any man who is still a socialist at age 40 has no head.
 tags: politics
 note: Rephrased quote from Georges Clemenceau
+---
+q: The world changed less since Jesus Christ than in the last thirty years.
+by: Charles Péguy
+when: 1909
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
