@@ -74,6 +74,8 @@ def main(args):
         ref = doc["ref"]
         if isinstance(ref, list):
           ref = ", ".join(ref)
+      elif "when" in doc:
+        ref = str(doc["when"])
       else:
         ref = None
 
