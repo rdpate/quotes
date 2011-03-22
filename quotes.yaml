@@ -607,5 +607,14 @@ note: Rephrased quote from Georges Clemenceau
 q: The world changed less since Jesus Christ than in the last thirty years.
 by: Charles Péguy
 when: 1909
+---
+q: A psychiatrist is a fellow who asks you a lot of expensive questions your wife asks for nothing.
+by: Joey Adams
+---
+q: Marriage is the only adventure open to the cowardly.
+by: Voltaire
+---
+q: It's not the load that breaks you down; it's the way you carry it.
+by: Lena Horne
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
