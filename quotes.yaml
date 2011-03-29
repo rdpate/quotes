@@ -616,5 +616,17 @@ by: Voltaire
 ---
 q: It's not the load that breaks you down; it's the way you carry it.
 by: Lena Horne
+---
+q: Truth is, everybody is going to hurt you; you just gotta find the ones worth suffering for.
+by: Bob Marley
+---
+q: I am not one of those who in expressing opinions confine themselves to facts.
+by: Mark Twain
+---
+q: What some people mistake for the high cost of living is really the cost of high living.
+by: Doug Larson
+---
+q: There is no monument dedicated to the memory of a committee.
+by: Lester J. Pourciau
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
