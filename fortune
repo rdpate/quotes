@@ -13,7 +13,7 @@ from pprint import pprint
 import yaml
 
 
-Quote = namedtuple("Quote", ["text", "attribution", "ref", "tags"])
+Quote = namedtuple("Quote", ["text", "attribution", "ref", "tags", "notes"])
 
 
 def main(args):
@@ -81,13 +81,22 @@ def main(args):
 
       tags = doc.get("tags", "")
 
-      q = Quote(q, a, ref, tags)
+      notes = []
+      if "note" in doc:
+        notes = doc.get("note")
+        if isinstance(notes, basestring):
+          notes = [notes]
+      assert isinstance(notes, list)
+
+      q = Quote(q, a, ref, tags, "; ".join(notes))
       quotes.append((collection, q))
 
   if opts.verbose:
     print "[loaded %d quotes from %d files]" % (len(quotes), len(filenames))
 
   def show_quote(q, collection):
+    if opts.verbose:
+      print "quote =", q
     text = q.text.strip()
     if opts.wrap:
       text = textwrap.fill(text, width=opts.width)
@@ -100,6 +109,8 @@ def main(args):
 
     sep = " " if opts.oneline else "\n  "
     print sep.join((text, end_text))
+    if opts.verbose and q.notes:
+      print "#", q.notes
 
   if opts.grep:
     if re.escape(opts.grep) == opts.grep:  # not a regex, could be improved

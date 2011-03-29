@@ -628,5 +628,11 @@ by: Doug Larson
 ---
 q: There is no monument dedicated to the memory of a committee.
 by: Lester J. Pourciau
+---
+q: We live in a society and a culture and an economic model that tries to make everything look right... But by definition, when you make something no one hates, no one loves it.  So I am interested in imperfections, quirkiness, insanity, unpredictability.  That's what we really pay attention to anyway.  We don't talk about planes flying; we talk about them crashing.
+by: Tibor Kalman
+note:
+  - http://sonjajacob.tumblr.com/post/4167076995/love-this-quote
+  - http://37signals.com/svn/archives2/tibor_kalman_we_dont_talk_about_planes_flying_we_talk_about_them_crashing.php
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
