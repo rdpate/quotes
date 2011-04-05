@@ -646,5 +646,9 @@ by: Tibor Kalman
 note:
   - http://sonjajacob.tumblr.com/post/4167076995/love-this-quote
   - http://37signals.com/svn/archives2/tibor_kalman_we_dont_talk_about_planes_flying_we_talk_about_them_crashing.php
+---
+q: The whole world is a comedy to those that think, a tragedy to those that feel.
+by: Horace Walpole
+note: http://abstrusegoose.com/351
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
