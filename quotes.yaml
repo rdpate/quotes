@@ -149,7 +149,7 @@ ref: http://www.infoq.com/presentations/click-crash-course-modern-hardware
 q: Don't worry about people stealing an idea.  If it's original, you will have to ram it down their throats.
 by: Howard Aiken (1900 - 1973)
 ---
-q: Organization can never be a substitute for initiative and for judgement.
+q: Organization can never be a substitute for initiative and for judgment.
 by: Louis D. Brandeis
 ---
 q: I've never let school interfere with my education.
@@ -650,5 +650,8 @@ note:
 q: The whole world is a comedy to those that think, a tragedy to those that feel.
 by: Horace Walpole
 note: http://abstrusegoose.com/351
+---
+q: Good judgment comes from experience, and often experience comes from bad judgment.
+by: Rita Mae Brown
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
