@@ -21,23 +21,29 @@ def main(args):
   optparser.add_option("-w", "--width", type="int", default=79)
   optparser.add_option("--max-width", type="int", default=None, help="width = min(width, max_width)")
   optparser.add_option("-v", "--verbose", action="store_true", default=False)
+  optparser.add_option("--notes", dest="show_notes", action="store_true", default=False)
   optparser.add_option("--debug", action="store_true", default=False)
   optparser.add_option("--grep", nargs=1, default=None)
   optparser.add_option("--no-wrap", dest="wrap", action="store_false", default=True)
   optparser.add_option("-1", "--oneline", action="store_true", default=False,
     help="(implies no-wrap)")
-  optparser.add_option("-n", type="int", default=1,
+  optparser.add_option("-n", type="int", default=None,
     help="run N times")
   opts, args = optparser.parse_args(args)
 
-  if opts.n < 1 or (opts.n > 1 and opts.grep):
-    optparser.error("invalid N")
+  if opts.n is None and opts.grep is None:
+    opts.n = 1
+  if opts.n is not None and opts.n < 1:
+    optparser.error("invalid -n value")
 
   if opts.max_width:
     opts.width = min(opts.width, opts.max_width)
 
   if opts.oneline:
     opts.wrap = False
+
+  if opts.verbose:
+    opts.show_notes = True
 
   if args:
     filenames = args
@@ -88,7 +94,7 @@ def main(args):
           notes = [notes]
       assert isinstance(notes, list)
 
-      q = Quote(q, a, ref, tags, "; ".join(notes))
+      q = Quote(q, a, ref, tags, notes)
       quotes.append((collection, q))
 
   if opts.verbose:
@@ -109,19 +115,29 @@ def main(args):
 
     sep = " " if opts.oneline else "\n  "
     print sep.join((text, end_text))
-    if opts.verbose and q.notes:
-      print "#", q.notes
+    if opts.show_notes:
+      for note in q.notes:
+        print "#", note
 
   if opts.grep:
     if re.escape(opts.grep) == opts.grep:  # not a regex, could be improved
       opts.grep = opts.grep.lower()
       def grep(s):
+        if not isinstance(s, basestring):
+          return any(grep(x) for x in s)
         return opts.grep in s.lower()
     else:
-      grep = re.compile(opts.grep, re.I).search
+      def grep(s):
+        if not isinstance(s, basestring):
+          return any(grep(x) for x in s)
+        return re.compile(opts.grep, re.I).search(s)
+    count = 0
     for collection, q in quotes:
       if any(grep(t) for t in q if t):
         show_quote(q, collection)
+        count += 1
+        if opts.n is not None and count == opts.n:
+          break
   else:
     for _ in xrange(opts.n):
       collection, q = random.choice(quotes)
