@@ -66,6 +66,9 @@ by: Mitch Ratcliffe
 q: "There are two ways of constructing a software design: one way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies.  The first method is far more difficult."
 by: C.A.R. Hoare
 ---
+q: Inside every well-written large program is a well-written small program.
+by: C.A.R. Hoare
+---
 q: Never trust a programmer in a suit.
 ---
 q: Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves.
@@ -81,6 +84,11 @@ q: Nine people can't make a baby in a month.
 by: Fred Brooks
 ---
 q: Weeks of coding can save you hours of planning.
+---
+q: The value of a prototype is in the education it gives you, not in the code itself.
+by: Alan Cooper
+source: The Inmates are Running the Asylum
+tags: design
 ---
 q: Programs must be written for people to read, and only incidentally for machines to execute.
 by: Harold Abelson
@@ -230,6 +238,9 @@ q: Reusing pieces of code is liked picking off sentences from other people’s s
 by: Bob Frankston
 ---
 q: I knew I’d hate COBOL the moment I saw they’d used perform instead of do.
+by: Larry Wall
+---
+q: The problem with using C++ ... is that there's already a strong tendency in the language to require you to know everything before you can do anything.
 by: Larry Wall
 ---
 q: "If C++ has taught me one thing, it’s this: Just because the system is consistent doesn’t mean it’s not the work of Satan."
