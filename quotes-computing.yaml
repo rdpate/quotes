@@ -271,3 +271,9 @@ note: http://blog.yapb.net/post/2010/11/23/Struggling-to-Ship-Prologue.aspx
 ---
 q: All standards are local, and most standards believe that they are universal.
 by: Cory Doctorow
+---
+q: Most folks who beef about whitespace are meticulous indenters in Java or C++.  I don't know why they complain about Python when they already indent perfectly in other languages.
+by: Steven Lott
+ref: http://stackoverflow.com/questions/3994765/python-without-whitespace-requirements-closed#comment-4278801
+note: http://slott-softwarearchitect.blogspot.com/
+tags: python code-style
