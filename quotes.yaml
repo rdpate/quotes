@@ -410,49 +410,66 @@ by: J. Bartlett Brebner
 ---
 q: There are too many people, and too few human beings.
 by: Robert Zend
+tags: humanity
 ---
 q: The greatest use of life is to spend it for something that will outlast it.
 by: William James
+tags: humanity
 ---
 q: Plans are worthless, but planning is everything.
 by: Dwight D. Eisenhower
+tags: design
+---
+q: If you want total security, go to prison.  There you're fed, clothed, given medical care, and so on.  The only thing missing is freedom.
+by: Dwight D. Eisenhower
+tags: liberty
 ---
 q: Fast, good, cheap; pick two.
+tags: design
 ---
 q: The fool wonders, the wise man asks.
 by: Benjamin Disraeli
+tags: design
 ---
 q: You can use an eraser on the drafting table or a sledgehammer on the construction site.
 by: Frank Lloyd Wright
+tags: design
 ---
 q: The art of simplicity is a puzzle of complexity.
 by: Doug Horton
+tags: design
 ---
 q: The people of the various provinces are strictly forbidden to have in their possession any swords, short swords, bows, spears, firearms, or other types of arms.  The possession of unnecessary implements makes difficult the collection of taxes and dues and tends to foment uprisings.
 by: Toyotomi Hideyoshi, dictator of Japan
 date: August 1588
 note: http://catb.org/~esr/fortunes/rkba.html
+tags: liberty arms
 ---
 q: As the Founding Fathers knew well, a government that does not trust its honest, law-abiding, taxpaying citizens with the means of self-defense is not itself worthy of trust.  Laws disarming honest citizens proclaim that the government is the master, not the servant, of the people.
 by: Jeff Snyder
 note: http://catb.org/~esr/fortunes/rkba.html
+tags: liberty arms
 ---
 q: Americans have the right and advantage of being armed -- unlike the citizens of other countries whose governments are afraid to trust the people with arms.
 by: James Madison
 source: The Federalist Papers
 note: http://catb.org/~esr/fortunes/rkba.html
+tags: liberty arms
 ---
 q: An armed society is a polite society.  Manners are good when one may have to back up his acts with his life.
 by: Robert A. Heinlein
 source: Beyond This Horizon
 when: 1942
 note: http://catb.org/~esr/fortunes/rkba.html
+tags: arms
 ---
 q: Love is the condition in which the happiness of another person is essential to your own.
 by: Robert A. Heinlein
+tags: love
 ---
 q: A generation which ignores history has no past -- and no future.
 by: Robert A. Heinlein
+tags: humanity
 ---
 q: Stupidity, if left untreated, is self-correcting.
 by: Robert A. Heinlein
@@ -467,10 +484,12 @@ q: You know why there's a Second Amendment?  In case the government fails to fol
 by: Rush Limbaugh
 when: August 17, 1993
 note: http://catb.org/~esr/fortunes/rkba.html
+tags: liberty arms
 ---
 q: A man with a gun is a citizen.  A man without a gun is a subject.
 by: John R. Lott
 note: http://catb.org/~esr/fortunes/rkba.html
+tags: liberty arms
 ---
 q: Politicians should read science fiction, not westerns and detective stories.
 by: Arthur C. Clarke
@@ -486,6 +505,7 @@ by: Alan Woods
 ---
 q: It's a recession when your neighbor loses his job; it's a depression when you lose yours.
 by: Harry S. Truman
+tags: economy
 ---
 q: "There are two motives for reading a book: one, that you enjoy it; the other, that you can boast about it."
 by: Bertrand Russell
@@ -686,5 +706,9 @@ by: Ralph Waldo Emerson
 ---
 q: Even a fool, when he keeps silent, is counted wise.  When he shuts his lips, he is thought to be discerning.
 source: Proverbs 17:28
+---
+q: An approximate answer to the right problem is worth a good deal more than an exact answer to an approximate problem.
+by: John Tukey
+note: http://www.johndcook.com/blog/2011/05/09/does-the-answer-matter/
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
