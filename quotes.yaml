@@ -177,9 +177,6 @@ q: Work consists of whatever a body is obliged to do.  Play consists of whatever
 by: Mark Twain
 source: The Adventures of Tom Sawyer
 ---
-q: It is better to keep your mouth closed and let people think you are a fool than to open it and remove all doubt.
-by: Mark Twain
----
 q: The right word may be effective, but no word was ever as effective as a rightly timed pause.
 by: Mark Twain
 ---
@@ -686,5 +683,8 @@ by: Stephen King
 ---
 q: Do not go where the path may lead; go instead where there is no path and leave a trail.
 by: Ralph Waldo Emerson
+---
+q: Even a fool, when he keeps silent, is counted wise.  When he shuts his lips, he is thought to be discerning.
+source: Proverbs 17:28
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
