@@ -558,6 +558,9 @@ by: Albert Einstein
 q: Learning is not a product of schooling but the lifelong attempt to acquire it.
 by: Albert Einstein
 ---
+q: Imagination is more important than knowledge.
+by: Albert Einstein
+---
 q: The secret of life is to appreciate the pleasure of being terribly, terribly deceived.
 by: Oscar Wilde
 ---
@@ -710,5 +713,18 @@ source: Proverbs 17:28
 q: An approximate answer to the right problem is worth a good deal more than an exact answer to an approximate problem.
 by: John Tukey
 note: http://www.johndcook.com/blog/2011/05/09/does-the-answer-matter/
+---
+q: When you find yourself in a hole, stop digging.
+by: Will Rogers
+---
+q: Fanaticism consists of redoubling your efforts when you have forgotten your aim.
+by: George Santayana
+---
+q: Purpose defines success.
+by: David Allen
+source: Getting Things Done
+---
+q: Simple, clear purpose and principles give rise to complex and intelligent behavior.  Complex rules and regulations give rise to simple and stupid behavior.
+by: Dee Hock
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
