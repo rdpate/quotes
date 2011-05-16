@@ -77,9 +77,6 @@ q: One who works with their hands is a laborer.  One who works with their hands 
 ---
 q: Any sufficiently advanced magic is indistinguishable from a rigged demonstration.
 ---
-q: "Three passions, simple but overwhelmingly strong, have governed my life: longing for love, search for knowledge and an unbearable lust for chocolate."
-by: Bertrand Russel
----
 q: Whenever a theory apears to you as the only possible one, take this as a sign that you have neither understood the theory nor the problem it was intended to solve.
 by: Karl Popper
 ---
@@ -233,14 +230,8 @@ source: Chinese proverb
 q: Well, the telling of jokes is an art of its own, and it always rises from some emotional threat.  The best jokes are dangerous, and dangerous because they are in some way truthful.
 by: Kurt Vonnegut
 ---
-q: The multitude of books is making us ignorant.
-by: Voltaire
----
 q: The hardest thing to learn in life is which bridge to cross and which to burn.
 by: David Russell
----
-q: Of all forms of caution, caution in love is perhaps the most fatal to true happiness.
-by: Bertrand Russell
 ---
 q: It is not necessary to understand things in order to argue about them.
 by: Pierre Beaumarchais
@@ -280,9 +271,6 @@ by: Frank Zappa
 ---
 q: I have put away childish things.
 source: 1 Corinthians 13:11
----
-q: The fact that an opinion has been widely held is no evidence whatever that it is not utterly absurd; indeed in view of the silliness of the majority of mankind, a widespread belief is more likely to be foolish than sensible.
-by: Bertrand Russell
 ---
 q: Dreaming permits each and every one of us to be the quietly and safely insane every night of our lives.
 by: William Dement
@@ -507,9 +495,6 @@ q: It's a recession when your neighbor loses his job; it's a depression when you
 by: Harry S. Truman
 tags: economy
 ---
-q: "There are two motives for reading a book: one, that you enjoy it; the other, that you can boast about it."
-by: Bertrand Russell
----
 q: Regret for the things we did can be tempered by time; it is regret for the things we did not do that is inconsolable.
 by: Sidney J. Harris
 ---
@@ -633,9 +618,6 @@ by: John Stuart Mill
 q: You cannot shake hands with a clenched fist.
 by: Indira Gandhi
 ---
-q: If God did not exist, it would be necessary to invent him.
-by: Voltaire
----
 q: Being a nerd, which is to say going too far and caring too much about a subject, is the best way to make friends I know.
 by: Sarah Vowell
 source: |
@@ -669,9 +651,6 @@ when: 1909
 ---
 q: A psychiatrist is a fellow who asks you a lot of expensive questions your wife asks for nothing.
 by: Joey Adams
----
-q: Marriage is the only adventure open to the cowardly.
-by: Voltaire
 ---
 q: It's not the load that breaks you down; it's the way you carry it.
 by: Lena Horne
@@ -730,5 +709,48 @@ source: http://twitter.com/gtdguy/status/1842063700
 ---
 q: Simple, clear purpose and principles give rise to complex and intelligent behavior.  Complex rules and regulations give rise to simple and stupid behavior.
 by: Dee Hock
+---
+q: The multitude of books is making us ignorant.
+by: Voltaire
+---
+q: If God did not exist, it would be necessary to invent him.
+by: Voltaire
+---
+q: Marriage is the only adventure open to the cowardly.
+by: Voltaire
+---
+q: I disapprove of what you say, but I will defend to the death your right to say it.
+by: Voltaire
+tags: liberty
+---
+q: There's a difference between a philosophy and a bumper sticker.
+by: Charles M. Schulz
+---
+q: The chief obstacle to the progress of the human race is the human race.
+by: Don Marquis
+---
+q: If you believe the doctors, nothing is wholesome; if you believe the theologians, nothing is innocent; if you believe the military, nothing is safe.
+by: Lord Salisbury
+---
+q: "Three passions, simple but overwhelmingly strong, have governed my life: longing for love, search for knowledge and an unbearable lust for chocolate."
+by: Bertrand Russell
+---
+q: Of all forms of caution, caution in love is perhaps the most fatal to true happiness.
+by: Bertrand Russell
+---
+q: The fact that an opinion has been widely held is no evidence whatever that it is not utterly absurd; indeed in view of the silliness of the majority of mankind, a widespread belief is more likely to be foolish than sensible.
+by: Bertrand Russell
+---
+q: "There are two motives for reading a book: one, that you enjoy it; the other, that you can boast about it."
+by: Bertrand Russell
+---
+q: All movements go too far.
+by: Bertrand Russell
+---
+q: Words ought to be a little wild for they are the assaults of thought on the unthinking.
+by: John Maynard Keynes
+---
+q: One man's folly is another man's wife.
+by: Helen Rowland
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
