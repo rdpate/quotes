@@ -192,6 +192,9 @@ by: Mark Twain
 q: I've never wished a man dead, but I have read some obituaries with great pleasure.
 by: Mark Twain
 ---
+q: Don't go around saying the world owes you a living.  The world owes you nothing.  It was here first.
+by: Mark Twain
+---
 q: The important thing, once you have enough to eat and a nice house, is what you can do for others, what you can contribute to the enterprise as a whole.
 by: Donald Knuth
 source: Dr. Dobb's Journal (April 1996)
@@ -752,5 +755,11 @@ by: John Maynard Keynes
 ---
 q: One man's folly is another man's wife.
 by: Helen Rowland
+---
+q: There is no man living that can not do more than he thinks he can.
+by: Henry Ford
+---
+q: Failure is simply the opportunity to begin again, this time more intelligently.
+by: Henry Ford
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
