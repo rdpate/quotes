@@ -158,7 +158,7 @@ ref: http://lambda-the-ultimate.org/classic/message10140.html
 q: The real hero of programming is the one who writes negative code.
 by: M. Douglas McIlroy
 ---
-q: As a programmer, it is your job to put yourself out of business. What you do today can be automated tomorrow.
+q: As a programmer, it is your job to put yourself out of business.  What you do today can be automated tomorrow.
 by: M. Douglas McIlroy
 ---
 q: Keep it simple, make it general, and make it intelligible.
@@ -170,7 +170,7 @@ by: paraphrasing M. Douglas McIlroy
 q: Mathematicians stand on each other's shoulders while computer scientists stand on each other's toes.
 by: R.W. Hamming
 ---
-q: Whereas Newton could say, "If I have seen a little farther than others, it is because I have stood on the shoulders of giants," I am forced to say, "Today we stand on each other's feet." Perhaps the central problem we face in all of computer science is how we are to get to the situation where we build on top of the work of others rather than redoing so much of it in a trivially different way.
+q: Whereas Newton could say, "If I have seen a little farther than others, it is because I have stood on the shoulders of giants," I am forced to say, "Today we stand on each other's feet."  Perhaps the central problem we face in all of computer science is how we are to get to the situation where we build on top of the work of others rather than redoing so much of it in a trivially different way.
 by: R.W. Hamming
 note: 1968 Turing Award lecture
 ---
@@ -249,7 +249,7 @@ by: Andrew Plotkin
 q: Arguing that Java is better than C++ is like arguing that grasshoppers taste better than tree bark.
 by: Thant Tessman
 ---
-q: "Historically, languages designed for other people to use have been bad: Cobol, PL/I, Pascal, Ada, C++. The good languages have been those that were designed for their own creators: C, Perl, Smalltalk, Lisp."
+q: "Historically, languages designed for other people to use have been bad: Cobol, PL/I, Pascal, Ada, C++.  The good languages have been those that were designed for their own creators: C, Perl, Smalltalk, Lisp."
 by: Paul Graham
 ---
 q: The best way to implement code quickly is to implement less of it.  The best way to have fewer bugs is to implement less code.
