@@ -776,5 +776,8 @@ tags: creativity
 ---
 q: Celebrate any progress.  Don't wait to get perfect.
 by: Ann McGee Cooper
+---
+q: Girls fall in love with what they hear, boys fall in love with what they see.  That's why girls wear make up and boys lie.
+by: Wiz Khalifa
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
