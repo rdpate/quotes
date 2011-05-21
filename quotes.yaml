@@ -426,6 +426,10 @@ q: You can use an eraser on the drafting table or a sledgehammer on the construc
 by: Frank Lloyd Wright
 tags: design
 ---
+q: I believe in God, only I spell it Nature.
+by: Frank Lloyd Wright
+tags: religion
+---
 q: The art of simplicity is a puzzle of complexity.
 by: Doug Horton
 tags: design
@@ -779,5 +783,18 @@ by: Ann McGee Cooper
 ---
 q: Girls fall in love with what they hear, boys fall in love with what they see.  That's why girls wear make up and boys lie.
 by: Wiz Khalifa
+---
+q: I must also have a dark side if I am to be whole.
+by: Dr. Carl Gustav Jung
+---
+q: Belief in a cruel God makes a cruel man.
+by: Thomas Paine
+tags: religion
+---
+q: Everything we hear is an opinion, not a fact.  Everything we see is a perspective, not the truth.
+by: Marcus Aurelius
+---
+q: I would rather have a mind opened by wonder than one closed by belief.
+by: Gerry Spence
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
