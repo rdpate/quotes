@@ -796,5 +796,11 @@ by: Marcus Aurelius
 ---
 q: I would rather have a mind opened by wonder than one closed by belief.
 by: Gerry Spence
+---
+q: Everyone thinks of changing the world, but no one thinks of changing himself.
+by: Leo Tolstoy
+---
+q: For every problem there is one solution which is simple, neat, and wrong.
+by: H.L. Mencken
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
