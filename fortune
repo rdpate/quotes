@@ -25,6 +25,8 @@ def main(args):
   optparser.add_option("--debug", action="store_true", default=False)
   optparser.add_option("--grep", nargs=1, default=None)
   optparser.add_option("--no-wrap", dest="wrap", action="store_false", default=True)
+  optparser.add_option("--blank-line", action="store_true", default=False,
+    help="output a blank line between each quote")
   optparser.add_option("-1", "--oneline", action="store_true", default=False,
     help="(implies no-wrap)")
   optparser.add_option("--all", action="store_true", default=False,
@@ -107,7 +109,13 @@ def main(args):
   if opts.verbose:
     print "[loaded %d quotes from %d files]" % (len(quotes), len(filenames))
 
+  _show_quote_first = [True]
   def show_quote(q, collection):
+    if _show_quote_first[0]:
+      _show_quote_first[0] = False
+    elif opts.blank_line:
+      print
+
     if opts.verbose:
       print "quote =", q
     text = q.text.strip()
