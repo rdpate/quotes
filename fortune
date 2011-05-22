@@ -27,10 +27,17 @@ def main(args):
   optparser.add_option("--no-wrap", dest="wrap", action="store_false", default=True)
   optparser.add_option("-1", "--oneline", action="store_true", default=False,
     help="(implies no-wrap)")
+  optparser.add_option("--all", action="store_true", default=False,
+    help="show all")
   optparser.add_option("-n", type="int", default=None,
     help="run N times")
   opts, args = optparser.parse_args(args)
 
+  if opts.all:
+    if opts.n is not None:
+      optparser.error("cannot combine --all with -n")
+    if opts.grep is not None:
+      optparser.error("cannot combine --all with --grep")
   if opts.n is None and opts.grep is None:
     opts.n = 1
   if opts.n is not None and opts.n < 1:
@@ -139,9 +146,13 @@ def main(args):
         if opts.n is not None and count == opts.n:
           break
   else:
-    for _ in xrange(opts.n):
-      collection, q = random.choice(quotes)
-      show_quote(q, collection)
+    if opts.all:
+      for collection, q in quotes:
+        show_quote(q, collection)
+    else:
+      for _ in xrange(opts.n):
+        collection, q = random.choice(quotes)
+        show_quote(q, collection)
 
 
 if __name__ == "__main__":
