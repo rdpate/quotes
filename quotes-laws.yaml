@@ -37,13 +37,13 @@ title: Robert Glass' Rules of Three
 ref: http://www.amazon.com/Facts-Fallacies-Software-Engineering-Development/dp/0321117425/
 note: http://jasonium.com/?p=45
 ---
-q: Never attribute to malice that which can be adequately explained by stupidity.
-by: Hanlon's razor
+q: Never attribute to malice that which is adequately explained by stupidity.
+title: Hanlon's razor
 ---
 q: In analyzing complexity, fast iteration almost always produces better results than in-depth analysis.
-by: Boyd's Law of Iteration
+title: Boyd's Law of Iteration
 note: http://en.wikipedia.org/wiki/John_Boyd_(military_strategist); also stated as "Speed of iteration beats quality of iteration."
 ---
 q: Adding additional resources to a late project only makes the project later.
-by: Brooks' Law
+title: Brooks' Law
 note: Frederick Brooks
