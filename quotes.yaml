@@ -765,21 +765,23 @@ by: Henry Ford
 ---
 q: Failure is simply the opportunity to begin again, this time more intelligently.
 by: Henry Ford
+tags: success
 ---
 q: The best way to get a good idea is to get lots of ideas.
 by: Linus Pauling
-tags: creativity
+tags: creativity success
 ---
 q: Nothing is more dangerous than an idea when it is the only one you have.
 by: Emile Chartier
-tags: creativity
+tags: creativity success
 ---
 q: Only he who handles his ideas lightly is master of his ideas, and only he who is master of his ideas is not enslaved by them.
 by: Lin Yutang
-tags: creativity
+tags: creativity success
 ---
 q: Celebrate any progress.  Don't wait to get perfect.
 by: Ann McGee Cooper
+tags: success
 ---
 q: Girls fall in love with what they hear, boys fall in love with what they see.  That's why girls wear make up and boys lie.
 by: Wiz Khalifa
@@ -802,5 +804,9 @@ by: Leo Tolstoy
 ---
 q: For every problem there is one solution which is simple, neat, and wrong.
 by: H.L. Mencken
+---
+q: I've missed more than 9,000 shots in my career.  I've lost almost 300 games.  Twenty-six times, I've been trusted to take the game winning shot and missed.  I've failed over and over and over again in my life.  And that is why I succeed.
+by: Michael Jordon
+tags: success
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
