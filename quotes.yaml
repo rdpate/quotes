@@ -808,5 +808,8 @@ by: H.L. Mencken
 q: I've missed more than 9,000 shots in my career.  I've lost almost 300 games.  Twenty-six times, I've been trusted to take the game winning shot and missed.  I've failed over and over and over again in my life.  And that is why I succeed.
 by: Michael Jordon
 tags: success
+---
+q: You can't go against the grain of the universe and not expect to get splinters.
+by: C. S. Lewis
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
