@@ -57,7 +57,7 @@ def main(args):
   if args:
     filenames = args
   else:
-    filenames = glob.glob("%s/quotes*.yaml" % path.dirname(__file__))
+    filenames = glob.glob(path.join(path.dirname(__file__), "quotes*.yaml"))
 
   if opts.debug or opts.verbose:
     print "opts:", repr(opts)
