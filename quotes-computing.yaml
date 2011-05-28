@@ -105,9 +105,6 @@ by: Niklaus Wirth
 q: A computer is a stupid machine with the ability to do incredibly smart things, while computer programmers are smart people with the ability to do incredibly stupid things.  They are, in short, a perfect match.
 by: Bill Bryson
 ---
-q: UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity.
-by: Dennis Ritchie
----
 q: Computer science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter.
 by: Eric Raymond
 ---
@@ -231,6 +228,12 @@ by: Edward Tufte
 q: A language that doesn't have everything is actually easier to program in than some that do.
 by: Dennis Ritchie
 ---
+q: UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity.
+by: Dennis Ritchie
+---
+q: C is quirky, flawed, and an enormous success.
+by: Dennis M. Ritchie
+---
 q: If you don't think carefully, you might think that programming is just typing statements in a programming language.
 by: Ward Cunningham
 ---
@@ -241,6 +244,9 @@ q: I knew I'd hate COBOL the moment I saw they'd used perform instead of do.
 by: Larry Wall
 ---
 q: The problem with using C++ ... is that there's already a strong tendency in the language to require you to know everything before you can do anything.
+by: Larry Wall
+---
+q: It is easier to port a shell than a shell script.
 by: Larry Wall
 ---
 q: "If C++ has taught me one thing, it's this: Just because the system is consistent doesn't mean it's not the work of Satan."
@@ -277,3 +283,12 @@ by: Steven Lott
 ref: http://stackoverflow.com/questions/3994765/python-without-whitespace-requirements-closed#comment-4278801
 note: http://slott-softwarearchitect.blogspot.com/
 tags: python code-style
+---
+q: Good design adds value faster than it adds cost.
+by: Thomas C. Gale
+---
+q: Learning to program has no more to do with designing interactive software than learning to touch type has to do with writing poetry.
+by: Ted Nelson
+---
+q: First learn computer science and all the theory.  Next develop a programming style.  Then forget all that and just hack.
+by: George Carrette
