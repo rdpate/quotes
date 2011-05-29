@@ -754,6 +754,9 @@ by: Bertrand Russell
 q: All movements go too far.
 by: Bertrand Russell
 ---
+q: I would never die for my beliefs because I might be wrong.
+by: Bertrand Russell
+---
 q: Words ought to be a little wild for they are the assaults of thought on the unthinking.
 by: John Maynard Keynes
 ---
@@ -815,5 +818,8 @@ by: C. S. Lewis
 q: That which is clumsy is rarely reliable.
 by: Gary Marcus
 note: http://jonjagger.blogspot.com/2011/05/kluge.html
+---
+q: Silence is one of the hardest arguments to refute.
+by: Josh Billings
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
