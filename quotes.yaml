@@ -7,6 +7,7 @@
 # id: quote id (string or number)
 # note: textual note (not generally displayed)
 # tags: space-separated string of tags
+# variation: alternate text for the quote
 ---
 q: The most exciting phrase to hear in science, the one that heralds new discoveries, is not "Eureka!" but "That's funny..."
 by: Isaac Asimov
@@ -821,5 +822,30 @@ note: http://jonjagger.blogspot.com/2011/05/kluge.html
 ---
 q: Silence is one of the hardest arguments to refute.
 by: Josh Billings
+---
+q: Genius is one percent inspiration, ninety-nine percent perspiration.
+by: Thomas Edison
+tags: success
+---
+q: Everything comes to him who hustles while he waits.
+by: Thomas Edison
+tags: success
+---
+q: Discontent is the first necessity of progress.  Show me a thoroughly satisfied man, and I will show you a failure.
+by: Thomas Edison
+variation: Restlessness is discontent -- and discontent is the first necessity of progress. Show me a thoroughly satisfied man -- and I will show you a failure.
+tags: success
+---
+q: Opportunity is missed by most people because it is dressed in overalls and looks like work.
+by: Thomas Edison
+tags: success
+---
+q: I find out what the world needs.  Then, I go ahead and invent it.
+by: Thomas Edison
+tags: success
+---
+q: I owe my success to the fact that I never had a clock in my workroom.
+by: Thomas Edison
+tags: success
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
