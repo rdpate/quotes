@@ -13,7 +13,7 @@ import yaml
 Quote = namedtuple("Quote", ["text", "attribution", "ref", "tags", "notes"])
 
 
-def main(args):
+def _main(args):
   optparser = optparse.OptionParser(usage="%prog [OPTION..] [QUOTE FILE..]")
   optparser.add_option("-w", "--width", type="int", default=79)
   optparser.add_option("--max-width", type="int", default=None, help="width = min(width, max_width)")
@@ -158,3 +158,9 @@ def main(args):
       for _ in xrange(opts.n):
         collection, q = random.choice(quotes)
         show_quote(q, collection)
+
+def main(args):
+  try:
+    return _main(args)
+  except KeyboardInterrupt:
+    pass
