@@ -847,5 +847,15 @@ tags: success
 q: I owe my success to the fact that I never had a clock in my workroom.
 by: Thomas Edison
 tags: success
+---
+q: The hard work on the first...is responsible for the sudden ease of the second.  If you just sit around waiting for the easy ones, nothing will come.  Get to work.
+by: Richard Hugo
+source: The Triggering Town
+tags: success
+note: http://www.victusspiritus.com/2011/05/22/write-daily/
+---
+q: Our brains have just one scale, and we resize our experiences to fit.
+by: Randall Munroe
+source: http://xkcd.com/915/
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
