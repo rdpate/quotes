@@ -860,5 +860,12 @@ note: http://www.victusspiritus.com/2011/05/22/write-daily/
 q: Our brains have just one scale, and we resize our experiences to fit.
 by: Randall Munroe
 source: http://xkcd.com/915/
+---
+q: If you're not paying for it, you're not the customer; you're the product being sold.
+by: Andrew Lewis
+source: http://www.metafilter.com/95152/Userdriven-discontent#3256046
+---
+q: Abstractions are not right or wrong.  They are useful or not useful.
+by: Jim Weirich
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
