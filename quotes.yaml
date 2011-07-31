@@ -196,6 +196,9 @@ by: Mark Twain
 q: Don't go around saying the world owes you a living.  The world owes you nothing.  It was here first.
 by: Mark Twain
 ---
+q: There are several good protections against temptations, but the surest is cowardice.
+by: Mark Twain
+---
 q: The important thing, once you have enough to eat and a nice house, is what you can do for others, what you can contribute to the enterprise as a whole.
 by: Donald Knuth
 source: Dr. Dobb's Journal (April 1996)
@@ -342,11 +345,16 @@ by: Buckminster Fuller
 q: Power is like being a lady... if you have to tell people you are, you aren't.
 by: Margaret Thatcher
 ---
+q: I am extraordinarily patient, provided I get my own way in the end.
+by: Margaret Thatcher
+---
 q: Try again.  Fail again.  Fail better.
 by: Samuel Beckett
+tags: success
 ---
 q: Life is what happens to us while we are making other plans.
 by: Thomas La Mance
+tags: life
 ---
 q: A fact is a simple statement that everyone believes.  It is innocent, unless found guilty.  A hypothesis is a novel suggestion that no one wants to believe.  It is guilty, until found effective.
 by: Edward Teller
@@ -810,7 +818,10 @@ q: Everyone thinks of changing the world, but no one thinks of changing himself.
 by: Leo Tolstoy
 ---
 q: For every problem there is one solution which is simple, neat, and wrong.
-by: H.L. Mencken
+by: H. L. Mencken
+---
+q: In the United States, doing good has come to be, like patriotism, a favorite device of persons with something to sell.
+by: H. L. Mencken
 ---
 q: I've missed more than 9,000 shots in my career.  I've lost almost 300 games.  Twenty-six times, I've been trusted to take the game winning shot and missed.  I've failed over and over and over again in my life.  And that is why I succeed.
 by: Michael Jordon
@@ -867,5 +878,11 @@ source: http://www.metafilter.com/95152/Userdriven-discontent#3256046
 ---
 q: Abstractions are not right or wrong.  They are useful or not useful.
 by: Jim Weirich
+---
+q: The cure for boredom is curiosity.  There is no cure for curiosity.
+by: Dorothy Parker
+---
+q: The best time to plant an oak tree was twenty-five years ago.  The second best time is today.
+by: James Carvillee
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
