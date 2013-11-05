@@ -8,11 +8,11 @@ from variety.plugins.IQuoteSource import IQuoteSource
 
 logger = logging.getLogger("variety")
 
-mdash = "—"
+mdash = u"—"
 
 def text_replacements(s):
-  s = s.replace(" -- ", mdash)
-  s = s.replace("...", u"…")
+  s = s.replace(u" -- ", mdash)
+  s = s.replace(u"...", u"…")
   return s
 
 class FortuneSource(IQuoteSource):
@@ -27,12 +27,12 @@ class FortuneSource(IQuoteSource):
 
   def get_random(self):
     try:
-      lines = subprocess.check_output(["fortune", "--no-wrap", "--qa-only", "-n1000"])
+      lines = subprocess.check_output(["fortune", "--no-wrap", "--qa-only", "-n100"])
     except subprocess.CalledProcessError:
       return []
 
     # parses my personal fortune's output
-    lines = lines.rstrip().split("\n")
+    lines = lines.rstrip().decode("utf-8").split("\n")
     results = []
     while len(lines) >= 2:
       q, a, lines = lines[0], lines[1][5:], lines[2:]
