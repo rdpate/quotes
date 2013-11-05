@@ -86,7 +86,7 @@ def _main(args):
       elif "by" in doc:
         a = doc["by"]
         source = doc.get("source")
-        if source:
+        if source and not opts.qa_only:
           a += ", " + source
       elif "source" in doc:
         a = doc["source"]
