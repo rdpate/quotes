@@ -1,13 +1,20 @@
+import codecs
 import glob
+import locale
 import optparse
 import random
 import re
+import sys
 import textwrap
 from collections import namedtuple
 from os import path
 from pprint import pprint
 
 import yaml
+
+
+if sys.stdout.encoding is None:
+  sys.stdout = codecs.getwriter(locale.getpreferredencoding())(sys.stdout, errors="replace")
 
 
 Quote = namedtuple("Quote", ["text", "attribution", "ref", "tags", "notes"])
@@ -18,6 +25,8 @@ def _main(args):
   optparser.add_option("-w", "--width", type="int", default=79)
   optparser.add_option("--max-width", type="int", default=None, help="width = min(width, max_width)")
   optparser.add_option("-v", "--verbose", action="store_true", default=False)
+  optparser.add_option("--qa-only", dest="qa_only", action="store_true", default=False,
+    help="show quote and author/byline only")
   optparser.add_option("--notes", dest="show_notes", action="store_true", default=False)
   optparser.add_option("--debug", action="store_true", default=False)
   optparser.add_option("--grep", nargs=1, default=None)
@@ -32,6 +41,8 @@ def _main(args):
     help="run N times")
   opts, args = optparser.parse_args(args)
 
+  if opts.qa_only and opts.show_notes:
+    optparser.error("cannot combine --qa-only with --notes")
   if opts.all:
     if opts.n is not None:
       optparser.error("cannot combine --all with -n")
@@ -68,7 +79,7 @@ def _main(args):
     if filename.startswith("-"):
       return "unexpected option"
     collection = path.splitext(path.basename(filename))[0]
-    for doc in yaml.load_all(open(filename)):
+    for doc in yaml.load_all(codecs.open(filename, encoding="utf-8", errors="replace")):
       q = doc.get("q")
       if "title" in doc:
         a = doc["title"]
@@ -120,13 +131,16 @@ def _main(args):
       text = textwrap.fill(text, width=opts.width)
 
     attr = q.attribution or "(unknown)"
-    if q.ref:
+    if q.ref and not opts.qa_only:
       attr += "; " + q.ref
 
-    end_text = "-- %s [%s]" % (attr, collection)
+    if opts.qa_only:
+      end_text = "-- " + attr
+    else:
+      end_text = u"-- %s [%s]" % (attr, collection)
 
     sep = " " if opts.oneline else "\n  "
-    print sep.join((text, end_text))
+    print u"%s%s%s" % (text, sep, end_text)
     if opts.show_notes:
       for note in q.notes:
         print "#", note
