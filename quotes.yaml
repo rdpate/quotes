@@ -890,5 +890,19 @@ by: Dorothy Parker
 ---
 q: The best time to plant an oak tree was twenty-five years ago.  The second best time is today.
 by: James Carvillee
+---
+q: The secret of change is to focus all of your energy, not on fighting the old, but on building the new.
+by: Socrates
+tags: success
+---
+q: Slavery is the legal fiction that a person is property.  Corporate personhood is the legal fiction that property is a person.
+by: William Meyers
+---
+q: Invincibility lies in the defence; the possibility of victory in the attack.  One defends when his strength is inadequate; he attacks when it is abundant.
+by: Sun Tzu
+tags: war
+---
+q: Amateurs practice until they get it right; professionals practice until they can't get it wrong.
+tags: success
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
