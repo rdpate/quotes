@@ -904,5 +904,8 @@ tags: war
 ---
 q: Amateurs practice until they get it right; professionals practice until they can't get it wrong.
 tags: success
+---
+q: Expecting the world to treat you fairly because you are a good person is a little like expecting the bull not to attack you because you are a vegetarian.
+by: Dennis Wholey
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
