@@ -197,7 +197,7 @@ q: I ... am rarely happier than when spending an entire day programming my compu
 by: Douglas Adams
 source: Last Chance to See
 ---
-q: Good code is its own best documentation.  As you're about to add a comment, ask yourself, "How can I improve the code so that this comment isn't needed?"  Improve the code and then document it to make it even clearer.
+q: Good code is its own best documentation.  As you're about to add a comment, ask yourself, "How can I improve the code so that this comment isn't needed?"
 by: Steve McConnell
 ---
 q: "The three great virtues of programming language designers: diligence, patience, humility."
