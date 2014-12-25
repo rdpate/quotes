@@ -1,9 +1,5 @@
-# select quotes from http://www.vegard.net/one-liners/
-# to do:
-#   go through remaining quotes
-#     delete some I don't want
-#     delete duplicates
-#     maybe move some to other quotes files (e.g. computing)
+# quotes from http://www.vegard.net/one-liners/
+# still mostly unsorted
 ---
 q: A bad plan is better than no plan.
 ---
@@ -104,12 +100,6 @@ q: Laugh at your problems; everybody else does.
 ---
 q: Learn from your parents' mistakes -- use birth control.
 ---
-q: Learning from your mistakes is smart, learning from the mistakes of others is wise.
----
-q: Left to themselves, things tend to go from bad to worse.
----
-q: Life exists for no known purpose.
----
 q: Life is pleasant.  Death is peaceful.  It's the transition that's troublesome.
 by: Isaac Asimov
 ---
@@ -117,7 +107,7 @@ q: Look to the future, because that is where you'll spend the rest of your life.
 by: George Burns
 ---
 q: Maybe this world is another planet's hell.
-tag: perspective
+tags: perspective
 ---
 q: Men never do evil so completely and cheerfully as when they do it from a religious conviction.
 by: Blaise Pascal
@@ -135,10 +125,6 @@ by: Isaac Asimov
 q: Never waste a lie when the truth will do.
 by: Jack Clancy
 ---
-q: Nothing is illegal if one hundred businessmen decide to do it.
----
-q: Nothing will dispel enthusiasm like a small admission fee.
----
 q: Patience has its limits -- take it too far and it's cowardice.
 by: George Jackson
 ---
@@ -148,8 +134,6 @@ by: Richard Feynman
 q: Punctuality is the virtue of the bored.
 by: Evelyn Waugh
 ---
-q: "Sleep: a completely inadequate substitute for caffeine."
----
 q: The best way to be happy is to make the other person happy.
 by: Dalai Lama
 ---
@@ -158,8 +142,6 @@ q: Sometimes a majority only means that all the fools are on the same side.
 q: Sometimes the best helping hand you can give is a good, firm push.
 ---
 q: Tact is the art of making a point without making an enemy.
----
-q: The difference between pornography and erotica is lighting.
 ---
 q: The early bird may get the worm, but the second mouse gets the cheese.
 ---
@@ -186,20 +168,12 @@ by: George Bernard Shaw
 ---
 q: Wasting time is an important part of living.
 ---
-q: We live in a society where pizza gets to your house before the police.
----
-q: When in doubt, poke it with a stick.
----
-q: Worry does not empty tomorrow of its sorrow.  It empties today of its strength.
----
 q: You are only truly in control of your life when you accept you are not.
 ---
 q: You can do more with a kind word and a gun than with just a kind word.
 ---
 q: You can only live once, but if you do it right, once is enough.
 by: Mae West
----
-q: You do not need a parachute to skydive.  You only need a parachute to skydive twice.
 ---
 q: You don't have to explain something you never said.
 ---
