@@ -881,5 +881,8 @@ q: Argue like you're right; listen like you're wrong.
 q: The point of modern propaganda isn't only to misinform or push an agenda.  It is to exhaust your critical thinking, to annihilate truth.
 by: Garry Kasparov
 ref: https://twitter.com/Kasparov63/status/808750564284702720
+---
+q: The trouble with so many of us is that we underestimate the power of simplicity.
+by: Robert Stuberg
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
