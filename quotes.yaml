@@ -884,5 +884,8 @@ ref: https://twitter.com/Kasparov63/status/808750564284702720
 ---
 q: The trouble with so many of us is that we underestimate the power of simplicity.
 by: Robert Stuberg
+---
+q: Nothing of me is original.  I am the combined effort of everybody I've ever known.
+by: Chuck Palahniuk
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
