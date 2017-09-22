@@ -44,8 +44,7 @@ def main(opts, args):
 
     if not args:
         # TODO: better path management
-        #args = glob.glob(path.join(path.dirname(path.dirname(__file__)), "data", "*.yaml"))
-        args = glob.glob(path.join(path.dirname(path.dirname(__file__)), "*.yaml"))
+        args = glob.glob(path.join(path.dirname(path.dirname(__file__)), "data", "*.yaml"))
 
     if opts.debug:
         print("opts:", repr(opts.__dict__))
