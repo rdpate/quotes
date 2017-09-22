@@ -1,0 +1,14 @@
+#!/bin/sh -ue
+#.help
+# % [FILE..]
+#
+# Show random quote from collection or from FILEs.
+#
+# Options:
+# -nN --count=N             show N quotes
+#     --grep=RE             show quotes matching pattern
+#     --notes               show notes with quotes
+#     --width=W             wrap output to length, 0 to disable (default 78)
+#     --blank-line          add blank line between quotes
+#     --debug               show debug output
+exec pyr -3.6 -s -p"$(dirname "$(readlink -f "$0")")/../py3" -a"$0" fortune "$@"

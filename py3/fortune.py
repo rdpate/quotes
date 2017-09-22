@@ -1,7 +1,6 @@
 import codecs
 import glob
 import locale
-import optparse
 import random
 import re
 import sys
@@ -12,46 +11,50 @@ from pprint import pprint
 
 import yaml
 
+import pyr.optics
+
 
 Quote = namedtuple("Quote", ["text", "attribution", "ref", "tags", "notes"])
 
-def _main(args):
+class Options(pyr.optics.OptionAttrs):
+    n = None
+    grep = None
+    show_notes = False
+    width = 78
+    blank_line = True
+    debug = False
+
+def main(opts, args):
     if sys.stdout.encoding is None:
         sys.stdout = codecs.getwriter(locale.getpreferredencoding())(sys.stdout, errors="replace")
 
-    optparser = optparse.OptionParser(usage="%prog [OPTION..] [QUOTE_FILE..]", add_help_option=False)
-    optparser.add_option("-n", type="int", default=None,
-        help="show N quotes")
-    optparser.add_option("--grep", nargs=1, default=None,
-        help="show quotes matching pattern")
-    optparser.add_option("--notes", dest="show_notes", action="store_true", default=False,
-        help="include notes")
-    optparser.add_option("--width", type="int", default=79,
-        help="wrap output lines, or 0 to disable [default %default]")
-    optparser.add_option("--no-blank-line", dest="blank_line", action="store_false", default=True,
-        help="don't output a blank line between each quote")
-    optparser.add_option("--help", action="help",
-        help="show this help and exit")
-    optparser.add_option("--debug", action="store_true", default=False)
-    opts, args = optparser.parse_args(args)
+    opt_map = {
+        "n": pyr.optics.nonneg_int,
+        "count": "n",
+        "grep": pyr.optics.nonempty_string,
+        "notes": ("show_notes", pyr.optics.store_true),
+        "width": pyr.optics.nonneg_int,
+        "no-blank-line": ("blank_line", pyr.optics.store_false),
+        "debug": pyr.optics.store_true,
+        }
+    opts = pyr.optics.parse_opts(opts, opt_map, Options())
 
     if opts.n is None and opts.grep is None:
         opts.n = 1
-    if opts.n is not None and opts.n < 1:
-        optparser.error("invalid -n value")
 
     if not args:
-        args = glob.glob(path.join(path.dirname(__file__), "quotes*.yaml"))
+        # TODO: better path management
+        #args = glob.glob(path.join(path.dirname(path.dirname(__file__)), "data", "*.yaml"))
+        args = glob.glob(path.join(path.dirname(path.dirname(__file__)), "*.yaml"))
 
     if opts.debug:
-        print "opts:", repr(opts)
-        print "args:", repr(args)
-        print "filenames:", repr(args)
+        print("opts:", repr(opts.__dict__))
+        print("filenames:", repr(args))
 
     quotes = []
     for filename in args:
-        if filename.startswith("-"):
-            return "unexpected option"
+        if opts.debug:
+            print("loading", filename)
         collection = path.basename(filename)
         for doc in yaml.load_all(codecs.open(filename, encoding="utf-8", errors="replace")):
             q = doc.get("q")
@@ -81,7 +84,7 @@ def _main(args):
             notes = []
             if "note" in doc:
                 notes = doc.get("note")
-                if isinstance(notes, basestring):
+                if isinstance(notes, str):
                     notes = [notes]
             assert isinstance(notes, list)
 
@@ -89,42 +92,43 @@ def _main(args):
             quotes.append((collection, q))
 
     if opts.debug:
-        print "[loaded {} quotes from {} files]".format(len(quotes), len(filenames))
+        print("[loaded {} quotes from {} files]".format(len(quotes), len(args)))
 
     def show_quote(q, collection, is_first):
         if not is_first and opts.blank_line:
-            print
+            print()
 
         if opts.debug:
-            print "quote =", q
+            print("quote =", q)
         text = q.text.strip()
         if opts.width:
             text = textwrap.fill(text, width=opts.width)
-        print text
+        print(text)
 
         attr = q.attribution or "(unknown)"
         if q.ref:
             attr += "; " + q.ref
 
-        end_text = u"  -- {}".format(attr)
+        end_text = "  -- {}".format(attr)
         if opts.show_notes:
-            end_text += u" [{}]".format(collection)
-        print end_text
+            end_text += " [{}]".format(collection)
+        print(end_text)
 
         if opts.show_notes:
             for note in q.notes:
-                print "#", note
+                print("#", note)
 
     if opts.grep:
-        if re.escape(opts.grep) == opts.grep:  # test if a fixed-string match is possible, could be improved
+        # test if a fixed-string match is possible, could be improved
+        if re.escape(opts.grep) == opts.grep:
             opts.grep = opts.grep.lower()
             def grep(s):
-                if not isinstance(s, basestring):
+                if not isinstance(s, str):
                     return any(grep(x) for x in s)
                 return opts.grep in s.lower()
         else:
             def grep(s):
-                if not isinstance(s, basestring):
+                if not isinstance(s, str):
                     return any(grep(x) for x in s)
                 return re.compile(opts.grep, re.I).search(s)
         count = 0
@@ -135,12 +139,8 @@ def _main(args):
                 if opts.n is not None and count == opts.n:
                     break
     else:
-        for count in xrange(opts.n):
+        if not quotes:
+            return "no quotes found!"
+        for count in range(opts.n):
             collection, q = random.choice(quotes)
             show_quote(q, collection, count == 0)
-
-def main(args):
-    try:
-        return _main(args)
-    except KeyboardInterrupt:
-        print
