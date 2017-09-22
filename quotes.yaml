@@ -887,5 +887,8 @@ by: Robert Stuberg
 ---
 q: Nothing of me is original.  I am the combined effort of everybody I've ever known.
 by: Chuck Palahniuk
+---
+q: Design is intelligence made visible.
+by: Alina Wheeler
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
