@@ -890,5 +890,8 @@ by: Chuck Palahniuk
 ---
 q: Design is intelligence made visible.
 by: Alina Wheeler
+---
+q: The time you enjoy wasting is not wasted time.
+by: Bertrand Russell
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
