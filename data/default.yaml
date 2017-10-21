@@ -893,5 +893,9 @@ by: Alina Wheeler
 ---
 q: The time you enjoy wasting is not wasted time.
 by: Bertrand Russell
+---
+q: I contend we are both atheists, I just believe in one fewer god than you do.  When you understand why you dismiss all the other possible gods, you will understand why I dismiss yours.
+by: Stephen F. Roberts
+tags: religion atheism
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
