@@ -586,15 +586,6 @@ by: George Bernard Shaw
 tags: happiness
 ref: Man & Superman (1904) https://books.google.com/books?id=NS9pt1465pAC&pg=PA174
 ---
-q: The price of freedom is eternal vigilance.
-by: Thomas Jefferson
-tags: liberty politics
----
-q: When the people fear their government, there is tyranny; when the government fears the people, there is liberty.
-by: Thomas Jefferson
-tags: liberty politics
-note: http://jpetrie.myweb.uga.edu/TJ.html
----
 q: For much of my life there was no place where the things I wanted to investigate were of interest to anyone.
 by: Benoît Mandelbrot
 note: http://www.edge.org/3rd_culture/mandelbrot04/mandelbrot04_index.html
@@ -897,5 +888,8 @@ by: Bertrand Russell
 q: I contend we are both atheists, I just believe in one fewer god than you do.  When you understand why you dismiss all the other possible gods, you will understand why I dismiss yours.
 by: Stephen F. Roberts
 tags: religion atheism
+---
+q: In matters of style, swim with the current; in matters of principle, stand like a rock.
+by: Thomas Jefferson
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
