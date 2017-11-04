@@ -891,5 +891,11 @@ tags: religion atheism
 ---
 q: In matters of style, swim with the current; in matters of principle, stand like a rock.
 by: Thomas Jefferson
+---
+q: Giving up on our long-term goals for immediate gratification is procrastination.
+by: Dan Ariely
+---
+q: The question isn't who is going to let me; it's who is going to stop me.
+by: Ayn Rand
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
