@@ -897,5 +897,11 @@ by: Dan Ariely
 ---
 q: The question isn't who is going to let me; it's who is going to stop me.
 by: Ayn Rand
+---
+q: Even if you are on the right track, you'll get run over if you just sit there.
+by: Will Rogers
+---
+q: Know what your target is, don't guess it...if you don't know what your targets are, you're never going to get there.
+by: Idris Elba
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
