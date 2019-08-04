@@ -903,5 +903,8 @@ by: Will Rogers
 ---
 q: Know what your target is, don't guess it...if you don't know what your targets are, you're never going to get there.
 by: Idris Elba
+---
+q: I am always doing that which I can not do, in order that I may learn how to do it.
+by: Pablo Picasso
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
