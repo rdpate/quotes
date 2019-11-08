@@ -906,5 +906,11 @@ by: Idris Elba
 ---
 q: I am always doing that which I can not do, in order that I may learn how to do it.
 by: Pablo Picasso
+---
+q: When a team takes ownership of its problems, the problem gets solved.  It is true on the battlefield, it is true in business, and it is true in life.
+by: Jocko Willink
+---
+q: I do not always know what I want, but I do know what I don't want.
+by: Stanley Kubrick
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
