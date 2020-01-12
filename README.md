@@ -1,1 +1,4 @@
-about/about.md
+Quotes
+====
+
+*A witty saying proves nothing.* -- Voltaire
