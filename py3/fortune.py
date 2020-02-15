@@ -104,14 +104,18 @@ def main(opts, args):
             text = textwrap.fill(text, width=opts.width)
         print(text)
 
-        attr = q.attribution or "(unknown)"
+        attr = q.attribution
         if q.ref:
+            attr = attr or "(unknown)"
             attr += "; " + q.ref
 
-        end_text = "  -- {}".format(attr)
-        if opts.show_notes:
-            end_text += " [{}]".format(collection)
-        print(end_text)
+        if attr:
+            end_text = "  -- {}".format(attr)
+            if opts.show_notes:
+                end_text += " [{}]".format(collection)
+            print(end_text)
+        elif opts.show_notes:
+            print("  [{}]".format(collection))
 
         if opts.show_notes:
             for note in q.notes:
