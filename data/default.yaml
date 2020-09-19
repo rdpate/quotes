@@ -928,5 +928,9 @@ by: Derek Sivers
 q: Enjoy failure and learn from it. You can never learn from success.
 by: James Dyson
 tags: success
+---
+q: So often people are working hard at the wrong thing.  Working on the right thing is probably more important than working hard.
+by: Caterina Fake
+tags: success
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
