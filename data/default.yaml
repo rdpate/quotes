@@ -924,5 +924,9 @@ by: Derek Sivers
 ---
 q: Busy is what happens when you're at the mercy of someone else's schedule.
 by: Derek Sivers
+---
+q: Enjoy failure and learn from it. You can never learn from success.
+by: James Dyson
+tags: success
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
