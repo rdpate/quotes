@@ -932,5 +932,8 @@ tags: success
 q: So often people are working hard at the wrong thing.  Working on the right thing is probably more important than working hard.
 by: Caterina Fake
 tags: success
+---
+q: I cannot remember the books I've read any more than the meals I have eaten; even so, they have made me.
+by: Ralph Waldo Emerson
 # add new quote: yank below map command, :@"; select quote, cursor on above line, use <Leader>n
 # map <Leader>n o---<CR>q: <C-R>*<CR>by: <Esc>A
